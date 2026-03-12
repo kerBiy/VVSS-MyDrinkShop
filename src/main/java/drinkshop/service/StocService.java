@@ -4,9 +4,9 @@ import drinkshop.domain.IngredientReteta;
 import drinkshop.domain.Reteta;
 import drinkshop.domain.Stoc;
 import drinkshop.repository.Repository;
+import drinkshop.service.validator.InsufficientStockException;
 
 import java.util.List;
-import java.util.Map;
 
 public class StocService {
 
@@ -33,9 +33,7 @@ public class StocService {
     }
 
     public boolean areSuficient(Reteta reteta) {
-        List<IngredientReteta> ingredienteNecesare = reteta.getIngrediente();
-
-        for (IngredientReteta e : ingredienteNecesare) {
+        for (IngredientReteta e : reteta.getIngrediente()) {
             String ingredient = e.getDenumire();
             double necesar = e.getCantitate();
 
@@ -53,7 +51,8 @@ public class StocService {
 
     public void consuma(Reteta reteta) {
         if (!areSuficient(reteta)) {
-            throw new IllegalStateException("Stoc insuficient pentru rețeta.");
+            throw new InsufficientStockException(
+                    "Stoc insuficient pentru reteta produsului cu id=" + reteta.getId());
         }
 
         for (IngredientReteta e : reteta.getIngrediente()) {
@@ -70,7 +69,7 @@ public class StocService {
                 if (ramas <= 0) break;
 
                 double deScazut = Math.min(s.getCantitate(), ramas);
-                s.setCantitate((int)(s.getCantitate() - deScazut));
+                s.setCantitate((int) (s.getCantitate() - deScazut));
                 ramas -= deScazut;
 
                 stocRepo.update(s);

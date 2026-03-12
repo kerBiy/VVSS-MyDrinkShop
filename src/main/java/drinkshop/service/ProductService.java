@@ -2,6 +2,8 @@ package drinkshop.service;
 
 import drinkshop.domain.*;
 import drinkshop.repository.Repository;
+import drinkshop.service.validator.ProductValidator;
+import drinkshop.service.validator.ValidationException;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,17 +11,30 @@ import java.util.stream.Collectors;
 public class ProductService {
 
     private final Repository<Integer, Product> productRepo;
+    private final ProductValidator validator = new ProductValidator();
 
     public ProductService(Repository<Integer, Product> productRepo) {
         this.productRepo = productRepo;
     }
 
     public void addProduct(Product p) {
+        if (p.getNume() == null || p.getNume().isBlank())
+            throw new ValidationException("Numele produsului nu poate fi gol!");
+        if (p.getPret() <= 0)
+            throw new ValidationException("Pretul trebuie sa fie pozitiv!");
+        validator.validate(p);
         productRepo.save(p);
     }
 
-    public void updateProduct(int id, String name, double price, CategorieBautura categorie, TipBautura tip) {
-        Product updated = new Product(id, name, price, categorie, tip);
+    public void updateProduct(int id, String name, double price,
+                              CategorieBautura categorie, TipBautura tip,
+                              String descriere) {
+        if (name == null || name.isBlank())
+            throw new ValidationException("Numele produsului nu poate fi gol!");
+        if (price <= 0)
+            throw new ValidationException("Pretul trebuie sa fie pozitiv!");
+        Product updated = new Product(id, name, price, categorie, tip, descriere);
+        validator.validate(updated);
         productRepo.update(updated);
     }
 
@@ -28,13 +43,6 @@ public class ProductService {
     }
 
     public List<Product> getAllProducts() {
-//        Iterable<Product> it=productRepo.findAll();
-//        ArrayList<Product> products=new ArrayList<>();
-//        it.forEach(products::add);
-//        return products;
-
-//        return StreamSupport.stream(productRepo.findAll().spliterator(), false)
-//                    .collect(Collectors.toList());
         return productRepo.findAll();
     }
 

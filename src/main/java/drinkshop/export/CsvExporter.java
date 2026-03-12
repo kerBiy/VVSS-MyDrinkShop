@@ -6,29 +6,36 @@ import drinkshop.domain.Product;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
 
 public class CsvExporter {
+    private CsvExporter() {}
+
     public static void exportOrders(List<Product> products, List<Order> orders, String path) {
         try (FileWriter w = new FileWriter(path)) {
             w.write("OrderId,Product,Quantity,Price\n");
-            double sum=0.0;
-            for (Order o : orders){
+            double sum = 0.0;
+            for (Order o : orders) {
                 for (OrderItem i : o.getItems()) {
-                    Product p = products.stream().filter((p1)->i.getProduct().getId()==p1.getId()).toList().get(0);
-                    w.write(o.getId() + "," + p.getNume() + "," + i.getQuantity() + "," + i.getTotal() + "\n");
+                    Product p = products.stream()
+                            .filter(p1 -> i.getProduct().getId() == p1.getId())
+                            .findFirst()
+                            .orElse(null);
+                    if (p == null) continue;
+                    w.write(o.getId() + "," + p.getNume() + "," +
+                            i.getQuantity() + "," + i.getTotal() + "\n");
                 }
-                w.write("total order: "+o.getTotal()+" RON\n");
+                w.write("total order: " + o.getTotalPrice() + " RON\n");
                 w.write("-------------------------------\n");
-                sum+=o.getTotal();
+                sum += o.getTotalPrice();
             }
             String date = LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-            w.write("TOTAL OF "+date+" is: "+sum+" RON\n");
+            w.write("TOTAL OF " + date + " is: " + sum + " RON\n");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new UncheckedIOException("File error: " + path, e);
         }
     }
 }

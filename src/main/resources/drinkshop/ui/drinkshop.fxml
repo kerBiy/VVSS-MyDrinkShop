@@ -7,8 +7,16 @@
 <BorderPane xmlns="http://javafx.com/javafx/17"
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="drinkshop.ui.DrinkShopController"
-            prefWidth="950"
-            prefHeight="650">
+            prefWidth="1100"
+            prefHeight="700">
+
+    <top>
+        <HBox style="-fx-background-color: #2c3e50; -fx-padding: 8 15 8 15; -fx-alignment: center-left; -fx-spacing: 10;">
+            <Label text="Rol:" style="-fx-text-fill: white; -fx-font-weight: bold;"/>
+            <ComboBox fx:id="comboRol" style="-fx-min-width: 130;"/>
+            <Label fx:id="lblRolInfo" text="" style="-fx-text-fill: #aed6f1;"/>
+        </HBox>
+    </top>
 
     <center>
         <VBox>
@@ -19,22 +27,23 @@
             <!-- PRODUSE + COMANDA -->
             <HBox>
 
-                <!-- PRODUSE -->
-                <VBox>
+                <!-- PRODUSE (Manager only) -->
+                <VBox fx:id="panelProduse">
                     <Label text="Produse"/>
                     <TableView fx:id="productTable" prefHeight="150">
                         <columns>
-                            <TableColumn fx:id="colProdId" text="ID"/>
-                            <TableColumn fx:id="colProdName" text="Nume"/>
-                            <TableColumn fx:id="colProdPrice" text="Pret"/>
-                            <TableColumn fx:id="colProdCategorie" text="Categorie"/>
-                            <TableColumn fx:id="colProdTip" text="Tip"/>
+                            <TableColumn fx:id="colProdId" text="ID" prefWidth="40"/>
+                            <TableColumn fx:id="colProdName" text="Nume" prefWidth="130"/>
+                            <TableColumn fx:id="colProdPrice" text="Pret" prefWidth="60"/>
+                            <TableColumn fx:id="colProdCategorie" text="Categorie" prefWidth="120"/>
+                            <TableColumn fx:id="colProdTip" text="Tip" prefWidth="110"/>
                         </columns>
                     </TableView>
 
                     <HBox>
-                        <TextField fx:id="txtProdName" promptText="Nume"/>
-                        <TextField fx:id="txtProdPrice" promptText="Pret"/>
+                        <TextField fx:id="txtProdName" promptText="Nume" prefWidth="110"/>
+                        <TextField fx:id="txtProdPrice" promptText="Pret" prefWidth="70"/>
+                        <TextField fx:id="txtProdDescriere" promptText="Descriere" prefWidth="160"/>
                         <Button text="Add" onAction="#onAddProduct"/>
                         <Button text="Update" onAction="#onUpdateProduct"/>
                         <Button text="Delete" onAction="#onDeleteProduct"/>
@@ -58,12 +67,11 @@
                     </HBox>
                 </VBox>
 
-                <!-- COMANDA CURENTA -->
+                <!-- COMANDA CURENTA (Barman + Manager) -->
                 <VBox>
                     <Label text="Comanda curenta"/>
 
                     <HBox>
-                        <!-- CONTROALE STANGA -->
                         <VBox>
                             <Label text="Cantitate"/>
                             <ComboBox fx:id="comboQty"/>
@@ -75,7 +83,6 @@
                             <Label fx:id="lblOrderTotal" text="Total: 0"/>
                         </VBox>
 
-                        <!-- TABEL DREAPTA -->
                         <TableView fx:id="currentOrderTable" prefHeight="150" prefWidth="350">
                             <columns>
                                 <TableColumn fx:id="colOrderProdName" text="Produs"/>
@@ -92,8 +99,8 @@
 
             <Separator/>
 
-            <!-- RETETE -->
-            <HBox>
+            <!-- RETETE (Manager only) -->
+            <HBox fx:id="panelRetete">
                 <VBox>
                     <Label text="Retete existente"/>
                     <TableView fx:id="retetaTable" prefHeight="220" prefWidth="500">
@@ -129,7 +136,8 @@
 
             <Separator/>
 
-            <HBox>
+            <!-- RAPOARTE (Manager only) -->
+            <HBox fx:id="panelRapoarte">
                 <Button text="Export CSV" onAction="#onExportOrdersCsv"/>
                 <Button text="Update Revenue" onAction="#onDailyRevenue"/>
                 <Label fx:id="lblTotalRevenue" text="Daily Revenue: 0"/>

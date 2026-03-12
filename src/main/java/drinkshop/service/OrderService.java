@@ -12,10 +12,10 @@ public class OrderService {
     private final Repository<Integer, Order> orderRepo;
     private final Repository<Integer, Product> productRepo;
 
-    public OrderService(Repository<Integer, Order> orderRepo, Repository<Integer, Product> productRepo) {
+    public OrderService(Repository<Integer, Order> orderRepo,
+                        Repository<Integer, Product> productRepo) {
         this.orderRepo = orderRepo;
         this.productRepo = productRepo;
-
     }
 
     public void addOrder(Order o) {
@@ -31,8 +31,6 @@ public class OrderService {
     }
 
     public List<Order> getAllOrders() {
-//        return StreamSupport.stream(orderRepo.findAll().spliterator(), false)
-//                .collect(Collectors.toList());
         return orderRepo.findAll();
     }
 
@@ -42,7 +40,17 @@ public class OrderService {
 
     public double computeTotal(Order o) {
         return o.getItems().stream()
-                .mapToDouble(i -> productRepo.findOne(i.getProduct().getId()).getPret() * i.getQuantity())
+                .mapToDouble(i -> {
+                    Product p = productRepo.findOne(i.getProduct().getId());
+                    if (p == null) return 0.0;
+                    return p.getPret() * i.getQuantity();
+                })
+                .sum();
+    }
+
+    public double getTotalRevenue() {
+        return orderRepo.findAll().stream()
+                .mapToDouble(Order::getTotalPrice)
                 .sum();
     }
 

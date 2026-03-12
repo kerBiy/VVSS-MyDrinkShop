@@ -19,7 +19,6 @@ public class FileProductRepository
 
     @Override
     protected Product extractEntity(String line) {
-
         String[] elems = line.split(",");
 
         int id = Integer.parseInt(elems[0]);
@@ -27,8 +26,9 @@ public class FileProductRepository
         double price = Double.parseDouble(elems[2]);
         CategorieBautura categorie = CategorieBautura.valueOf(elems[3]);
         TipBautura tip = TipBautura.valueOf(elems[4]);
+        String descriere = elems.length > 5 ? elems[5] : "";
 
-        return new Product(id, name, price, categorie, tip);
+        return new Product(id, name, price, categorie, tip, descriere);
     }
 
     @Override
@@ -37,6 +37,7 @@ public class FileProductRepository
                 entity.getNume() + "," +
                 entity.getPret() + "," +
                 entity.getCategorie() + "," +
-                entity.getTip();
+                entity.getTip() + "," +
+                entity.getDescriere();
     }
 }
