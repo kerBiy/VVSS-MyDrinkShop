@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.4"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.25"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.22"

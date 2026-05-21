@@ -1,0 +1,200 @@
+Started by user [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KUyhPkVQMaQ3RDVZo0n7UEw1rFQnBGDrf5ACSN6l3mEAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IQCt8QBwv6aUUYbA8z4INfMVacz6+X7sFnqwu8viZdfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LR4d7NUOVAjsgLuGty2HGBHTE7qyJaJmyFDlSIuF0tXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in D:\VVSS lab 5\.jenkins\workspace\vvsslab5
+[8mha:////4O3SIC7EmMJOSzYqFZph29D67fvlGwjn7YpWkkwd8nzUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FjNZavItEfG5w9bPrRfc0T0+2aa5A2JP43Rq9Io+DrrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Ofi93gsJ5wYaQMtonhCoI/V+VQQWLecYES/OTd8VnrzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PDkf7npkItTry7UMGfcuM3ZR7uGt3EeNf5HwJCzZg2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4BoXvqKSRv2tt4vbRXaySkhTrEgKbmzD5ko1pkkrjgaRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4E9AvEBDzyJLDnz+poVCa7V/hUalCx30ylpUnOf5Z2bWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] timeout
+[2026-05-19T11:55:09.641Z] Timeout set to expire in 20 min
+[8mha:////4LyJ0PItnYtv4Ol24yBZAM6p4JGZNQ4+e/1XXzIXzuNhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4PcXrniv4SvoOvbPnUTZ9WtMqUpHkY7CcBbcarDMjpr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4KrW1T3CjM1x38+3Eim7cX3+RXL4W8LC7W/cT+xAneinAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Environment)
+[8mha:////4IsbVT/c8glFYLDA6JZUQ1RpxfQJOQA/MGMZ0kyOJWRDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] bat
+[2026-05-19T11:55:10.003Z] 
+[2026-05-19T11:55:10.003Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>java -version 
+[2026-05-19T11:55:10.003Z] java version "21.0.8" 2025-07-15 LTS
+[2026-05-19T11:55:10.003Z] Java(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)
+[2026-05-19T11:55:10.003Z] Java HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)
+[8mha:////4E1lc5auqV0WjXaeDga7uoLqb5PUT1gDdVYNoMgMYwnaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] bat
+[2026-05-19T11:55:10.294Z] 
+[2026-05-19T11:55:10.294Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn -version 
+[2026-05-19T11:55:10.553Z] Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+[2026-05-19T11:55:10.553Z] Maven home: C:\tools\maven
+[2026-05-19T11:55:10.553Z] Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+[2026-05-19T11:55:10.553Z] Default locale: en_US, platform encoding: UTF-8
+[2026-05-19T11:55:10.553Z] OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[8mha:////4ElfHEZhAw7AEFGe7FBryAnPr+OtM5qFqIuKk1JFF/vIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4EOWQqvfDdSX3a0qaFvqLOGJv1uTsxV2oYA/Nxs7MiF4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4MQH8OOtpnQ84efh6JMH49okMLAqGmrtFq8cOYhg+gKZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxARxC6QrCAAAA[0m[Pipeline] stage
+[8mha:////4NvW4Bj7prqeHlkqh69rjV+blQSOg5vKwwMRvzdO8AwwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build ParaBank)
+[8mha:////4BjyZLjjZdozus5ogA5/jP6yjmp17nnAj+0Cl5ZsVC2jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] dir
+[2026-05-19T11:55:10.655Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4Pqmc3IVmtKg6eampezohr86axxybf7S4qx0OdARYxL8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4HPDoBiqrVdITUNykM7S8aDJKup/blAJG7YT7Yx+T8d0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] bat
+[2026-05-19T11:55:10.957Z] 
+[2026-05-19T11:55:10.957Z] D:\VVSS lab 5\parabank>mvn -DskipTests clean package 
+[2026-05-19T11:55:12.852Z] [INFO] Scanning for projects...
+[2026-05-19T11:55:12.852Z] [INFO] 
+[2026-05-19T11:55:12.852Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T11:55:12.852Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T11:55:12.852Z] [INFO]   from pom.xml
+[2026-05-19T11:55:12.852Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T11:55:16.138Z] [INFO] 
+[2026-05-19T11:55:16.138Z] [INFO] --- clean:3.5.0:clean (default-clean) @ parabank ---
+[2026-05-19T11:55:16.138Z] [INFO] Deleting D:\VVSS lab 5\parabank\target
+[2026-05-19T11:55:17.082Z] [INFO] 
+[2026-05-19T11:55:17.082Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T11:55:17.082Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T11:55:17.082Z] [INFO] 
+[2026-05-19T11:55:17.082Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T11:55:17.341Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T11:55:17.341Z] [INFO] 
+[2026-05-19T11:55:17.341Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T11:55:17.341Z] [INFO] Recompiling the module because of changed source code.
+[2026-05-19T11:55:17.603Z] [INFO] Compiling 168 source files with javac [debug release 17] to target\classes
+[2026-05-19T11:55:21.809Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java:[266,28] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T11:55:21.809Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/CartService.java:[117,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T11:55:21.809Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore/BookStoreDB.java:[255,28] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T11:55:21.809Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore/CartService.java:[116,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T11:55:21.809Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/parabank/web/controller/ErrorController.java:[34,85] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T11:55:21.809Z] [INFO] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/DB.java: Some input files use or override a deprecated API.
+[2026-05-19T11:55:21.809Z] [INFO] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/DB.java: Recompile with -Xlint:deprecation for details.
+[2026-05-19T11:55:21.809Z] [INFO] 
+[2026-05-19T11:55:21.809Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T11:55:21.809Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T11:55:21.809Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T11:55:21.809Z] [INFO] 
+[2026-05-19T11:55:21.809Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T11:55:21.809Z] [INFO] Recompiling the module because of changed dependency.
+[2026-05-19T11:55:21.809Z] [INFO] Compiling 116 source files with javac [debug release 17] to target\test-classes
+[2026-05-19T11:55:27.084Z] [WARNING] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/service/ParaBankServiceConfigurationTest.java:[24,22] Long(long) in java.lang.Long has been deprecated and marked for removal
+[2026-05-19T11:55:27.084Z] [INFO] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/test/util/LoanRequestTestConfig.java: Some input files use or override a deprecated API.
+[2026-05-19T11:55:27.084Z] [INFO] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/test/util/LoanRequestTestConfig.java: Recompile with -Xlint:deprecation for details.
+[2026-05-19T11:55:27.084Z] [INFO] 
+[2026-05-19T11:55:27.084Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T11:55:27.084Z] [INFO] Tests are skipped.
+[2026-05-19T11:55:27.084Z] [INFO] 
+[2026-05-19T11:55:27.084Z] [INFO] --- war:3.5.1:war (default-war) @ parabank ---
+[2026-05-19T11:55:27.084Z] [INFO] Packaging webapp
+[2026-05-19T11:55:27.084Z] [INFO] Assembling webapp [parabank] in [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT]
+[2026-05-19T11:55:27.084Z] [INFO] Processing war project
+[2026-05-19T11:55:27.084Z] [INFO] Copying webapp resources [D:\VVSS lab 5\parabank\src\main\webapp]
+[2026-05-19T11:55:29.627Z] [INFO] Building war: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war
+[2026-05-19T11:55:29.892Z] [INFO] 
+[2026-05-19T11:55:29.892Z] [INFO] --- source:3.4.0:jar-no-fork (attach-sources) @ parabank ---
+[2026-05-19T11:55:30.463Z] [INFO] Building jar: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources.jar
+[2026-05-19T11:55:30.463Z] [INFO] 
+[2026-05-19T11:55:30.463Z] [INFO] --- assembly:3.8.0:single (assemble-soavirt-source) @ parabank ---
+[2026-05-19T11:55:30.727Z] [INFO] Reading assembly descriptor: src/main/assembly/sources-jst_web.xml
+[2026-05-19T11:55:32.630Z] [INFO] Building zip: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources-jst_web.zip
+[2026-05-19T11:55:32.894Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:55:32.894Z] [INFO] BUILD SUCCESS
+[2026-05-19T11:55:32.894Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:55:32.894Z] [INFO] Total time:  20.492 s
+[2026-05-19T11:55:32.894Z] [INFO] Finished at: 2026-05-19T14:55:32+03:00
+[2026-05-19T11:55:32.894Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4LSbEs9k/ahCHWFPXJFVo/K8famveauJHmTWjFL/AcQoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4JjP9pgzwpBbIQtp5UqtoIy3zrTmtTj3dE67hs4lyYbUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // dir
+[8mha:////4ERPAi7PzW5PfmRCC7Pko/HtCPv5zyjqznDuqRpgj4GiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] }
+[8mha:////4L0XicWDQP4hRSfT0Ldtdp92+m7dsZpcdlB6jL4i0AnVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] // stage
+[8mha:////4KJ9btKSkjI8+CBIGmAbwTrwynGAZc68lfzO4v05uvmIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUGFhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEki13wwgAAAA==[0m[Pipeline] stage
+[8mha:////4GlYgvQibM1qwQqfv/Pe2NnIrPpDNswmRDNmfgYL4ZUHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Start ParaBank)
+[8mha:////4Bb9k8Fa5J1MVupHtsBlXWcnp7Bqrn0o0ENGYtnPhBxiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
+[2026-05-19T11:55:33.310Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4KiysbClrOJ1Vf0mftQgtKYg6pIK7Y6yznnjmamDYVpFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4NEArbzOpZvU8EfyZUz1r5x1QxJ/pDq4T7arEVciPbSOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] powershell
+[2026-05-19T12:07:50.599Z] Sending interrupt signal to process
+Aborted by [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4K+/yMW320I0J3SjzYO0S2ztlVxfQF2t6H/cWVEvH+qxAAAA5R+LCAAAAAAAAP9djDFOAzEQRWc3ghpFokF09GNRJBQoFRQgRYAULrAJxvGu8ZiZ8SY0HIJrQIPEFTgEF6BLTUHDoq3gN/81771sYEsYTokd1jY2PsrCYwrZdYQr4uY20Aolp0SsKGqToI8pK15dzq7PHpLl4GNzQWp3PgZvX0ffnyUUUxhkDgrDaV21lQlVdGam7KM7XjPsL/ONUMQFRaFg8U9lPHl+nTyl9xLKc9gONjpd9rl7eISi0/f+6Sf9/8rQrygB1qkDVCgOFHZNTXPTtiKhmo/M4cio5bsfrw+ERvwAAAA=[0mClick here to forcibly terminate running steps
+[8mha:////4O89P9g9G0y8wl3VaDTrVw3/9Cfw3GaJpMC1Yg4JozfEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4I2Viogi+tgtWhUJwvt5c090tdcL5xlLXd/NUeYu+yO6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // dir
+[8mha:////4BD1pzO3NljkYkYt9qKi1I+pSOse+9Dl+6bIiSivG1t5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] }
+[8mha:////4Cuc7c407WQ1+yG+PhSaFDx+0dgOKxBJUbfXmHBvTVQ4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FJO0jTr1uDu0q1et/tn2mqwQX5VYnLKOgwm5LsUO2WuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUhJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQE+8r7QwgAAAA==[0m[Pipeline] stage
+[8mha:////4FuosmfncrfWPfjw1eiaxlnMpzkIIK3odyjNCaCPUK+GAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Wait For ParaBank)
+Stage "Wait For ParaBank" skipped due to earlier failure(s)
+[8mha:////4LNddPXmt5f86aw99EjROCNFdjXCtgHxOwgd9ncT+yyIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] getContext
+[8mha:////4F5HLiK/zdewAGyKiR/NgmeGEZU0gqlUqQ3cM3A+MIqlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4AkGCsSz7z6zNNUADFyWda7qGaCn4hXIQ5unSSkaSijLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I/kp+KaKQHfe2IL5YCVfHq8M5HeuM2XtDTMWhEYIVvKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoi0SGyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5S7Jtu++TyrNwNd1EXCAAAA[0m[Pipeline] stage
+[8mha:////4KGIfleQZJZ+fiBv6cQws7Wh2Z3eN38qqgVw3291TUSZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Run Tests)
+Stage "Run Tests" skipped due to earlier failure(s)
+[8mha:////4JjNs0K0kpK8sS3Y7m6gHTG3BhmYpdc682lL45f1AeAjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] getContext
+[8mha:////4FR8Ff6KuM4ZEJSW1m2TGJHS5Dti+1P52F9uzAelDdDPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BmM+Nsi+AAAA[0m[Pipeline] }
+[8mha:////4I16tErcFhXCFc8QPxjvqvUDyZt9zpjjYBE5DJZI/ETQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCkQ5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTT40or4AAAA=[0m[Pipeline] // stage
+[8mha:////4I1thGcDdIzmZzB+kIEP44fnxbMetHOTl01Q3XrKs0AsAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQGwzBkVwgAAAA==[0m[Pipeline] stage
+[8mha:////4N8/sKT1utWPw9VlBkcNbP+fLKYUuOipASqMT4Tqk5OtAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4CpVmnxaX/kSnr8XR9X8pwiz+U+Qrmq5wc9H10xkWOjZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] dir
+[2026-05-19T12:08:10.580Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4A+f1T1Oj40BLsacjsxlFQe/Ljra3BbGeGFKkmY9s8RFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4FyvjwEbcsrJif1GyjeZ76LwTSUoLIUJzQNm7DK9gpQ2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] bat
+[2026-05-19T12:08:10.898Z] 
+[2026-05-19T12:08:10.898Z] D:\VVSS lab 5\parabank>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop" 
+[2026-05-19T12:08:15.102Z] [INFO] Scanning for projects...
+[2026-05-19T12:08:15.102Z] [INFO] 
+[2026-05-19T12:08:15.102Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T12:08:15.102Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T12:08:15.102Z] [INFO]   from pom.xml
+[2026-05-19T12:08:15.102Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T12:08:18.404Z] [INFO] 
+[2026-05-19T12:08:18.404Z] [INFO] --- cargo:1.10.27:stop (default-cli) @ parabank ---
+[2026-05-19T12:08:20.311Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T12:08:21.249Z] [INFO] Tomcat 10.1.54 is stopping...
+[2026-05-19T12:08:21.817Z] [INFO] May 19, 2026 3:08:21 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T12:08:21.817Z] [INFO] SEVERE: Could not contact [localhost:8205] (base port [8205] and offset [0]). Tomcat may not be running.
+[2026-05-19T12:08:21.817Z] [INFO] May 19, 2026 3:08:21 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T12:08:21.817Z] [INFO] SEVERE: Error stopping Catalina
+[2026-05-19T12:08:21.817Z] [INFO] java.net.ConnectException: Connection refused: connect
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:751)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:686)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:555)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:324)
+[2026-05-19T12:08:21.817Z] [INFO] 	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:654)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[2026-05-19T12:08:21.817Z] [INFO] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[2026-05-19T12:08:21.817Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:390)
+[2026-05-19T12:08:21.817Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:479)
+[2026-05-19T12:08:21.817Z] [INFO] 
+[2026-05-19T12:08:27.096Z] [INFO] Tomcat 10.1.54 is stopped
+[2026-05-19T12:08:27.660Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:08:27.660Z] [INFO] BUILD SUCCESS
+[2026-05-19T12:08:27.660Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:08:27.660Z] [INFO] Total time:  13.137 s
+[2026-05-19T12:08:27.660Z] [INFO] Finished at: 2026-05-19T15:08:27+03:00
+[2026-05-19T12:08:27.660Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4LKu/J7YsxxYGuXl8UezZmvgubJW6/pT2WCD8xm9HllfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4LV4ttIR6M16wRaFVITXhZCHwxpnbXsrH/b/wtdSLu53AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // dir
+[8mha:////4Je7kVGzKiGfu5QjwqaDCnAxRJuezwKlaVWj6Q0woH5LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+TmiW/vgAAAA==[0m[Pipeline] powershell
+[8mha:////4Ltg8QxBM4nafH86XZgbje33kqRFzeh43oyEWFnP75CaAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoh04GdBnVijLpwgNCEkjd4rSUo6cSKuxh0IVGLCg2Vbsr7nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g1KmSEVwgAAAA==[0m[Pipeline] dir
+[2026-05-19T12:08:31.060Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4KRHcfdwIYej/Ey8kORhAWPF6YKwST6YdgRGwoPvNIAaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4As9F6v0ZTXKWxhIsIFHUZ/XCz1Zyl5k7khZIVSLlXKAAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] junit
+[2026-05-19T12:08:31.100Z] Recording test results
+[2026-05-19T12:08:31.100Z] No test report files were found. Configuration error?
+[2026-05-19T12:08:31.108Z] None of the test reports contained any result
+[2026-05-19T12:08:31.108Z] [Checks API] No suitable checks publisher found.
+[8mha:////4LafKDb1ArsoW6KgoS1VW5K/ErQE0FFL00+DFlfNrO7nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBiBOfIC+AAAA[0m[Pipeline] archiveArtifacts
+[2026-05-19T12:08:31.140Z] Archiving artifacts
+[8mha:////4Al8ZP7vBxS36HyP5v5ypq55SYJEVcPYVal0BOHsZhY9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNw+yoZy+AAAA[0m[Pipeline] }
+[8mha:////4Ii5HnXAOdzjHpz5ZTAEu7vMTg0v0Xg4Gdp0IbNlXdCAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g15lZPzvgAAAA==[0m[Pipeline] // dir
+[8mha:////4GOaTvwlpM+GEHCXXeg2tiCpW/7VTnYIj+Fz1RKSLG0fAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSABJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8Sg75RvgAAAA==[0m[Pipeline] }
+[8mha:////4OhXDNrR3kdO0+wmQJUdW5wdZrFmnNXwoJHht4YwISSkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtdu/wH9mVDevgAAAA==[0m[Pipeline] // stage
+[8mha:////4FCMu/ag2HjZyTJkZ3nM4ZvfofqG0zl13Hua8iVJcQLAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhDQ2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP5JKERi+AAAA[0m[Pipeline] }
+[8mha:////4MCcI3j6IC0B7MCzm8jtXtaZ/7NUXKXkMVL8A0UhvH9PAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A+A0Mcu9AAAA[0m[Pipeline] // timeout
+[8mha:////4E4NyMv6ctDvzpaYdgs/I+RHX4q3Od70QuCcuzCmZ4EVAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A8YtVoG9AAAA[0m[Pipeline] }
+[8mha:////4HVev1SIof5aR3H7V83zaqbeN0aZw9Y/cRuTpA/evOH7AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPR+zJo70AAAA=[0m[Pipeline] // timestamps
+[8mha:////4OzWYeFEDMOQjM4Kvdr+AtIHFcpWG/kptBgWYcK5yeV/AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU0jhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg9h9a7pvQAAAA==[0m[Pipeline] }
+[8mha:////4L3YyfHOXNaj/dEu0QmCiSVOsKEA+BusRA6XDfXpOC8xAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU0jhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w8L3gc3vQAAAA==[0m[Pipeline] // withEnv
+[8mha:////4P50iDsi5A/v9AQfkibzra4WKdGK3wk0uY66SO6Qmi5dAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPLcdgfb0AAAA=[0m[Pipeline] }
+[8mha:////4OacUrFKXBeZGxKqOefzsSdDZP0DqhbEaaxij3w/ZUvFAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A1/FVGG9AAAA[0m[Pipeline] // node
+[8mha:////4MVS5iGMzSmzOJhcsWHK69EGXVd7Pu9Y/e7LkkGfIOQzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A3ncMyu9AAAA[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 25af0ff9-1705-4e89-bd1e-8a5364a8a094
+Finished: ABORTED

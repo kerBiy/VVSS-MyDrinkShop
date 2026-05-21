@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"ScenarioBasedTest","Test scenario1 login valid","SUCCESS","2026-05-19T15:24:48.7254962+03:00[Europe/Bucharest]","0.0","0.27"
+"ScenarioBasedTest","Test scenario5 login add multiple accounts logout","SUCCESS","2026-05-19T15:24:49.0034917+03:00[Europe/Bucharest]","0.0","0.6"
+"ScenarioBasedTest","Test scenario6 login multiple transfers logout","SUCCESS","2026-05-19T15:24:49.6072916+03:00[Europe/Bucharest]","0.0","0.74"
+"ScenarioBasedTest","Test scenario4 complete workflow","SUCCESS","2026-05-19T15:24:50.3501139+03:00[Europe/Bucharest]","0.0","0.62"
+"ScenarioBasedTest","Test scenario2 login and add account","SUCCESS","2026-05-19T15:24:50.9723077+03:00[Europe/Bucharest]","0.0","0.43"
+"ScenarioBasedTest","Test scenario7 complex workflow","SUCCESS","2026-05-19T15:24:51.4051121+03:00[Europe/Bucharest]","0.0","0.58"

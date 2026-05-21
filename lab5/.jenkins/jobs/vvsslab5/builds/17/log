@@ -1,0 +1,573 @@
+Started by user [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KUyhPkVQMaQ3RDVZo0n7UEw1rFQnBGDrf5ACSN6l3mEAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IQCt8QBwv6aUUYbA8z4INfMVacz6+X7sFnqwu8viZdfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LR4d7NUOVAjsgLuGty2HGBHTE7qyJaJmyFDlSIuF0tXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in D:\VVSS lab 5\.jenkins\workspace\vvsslab5
+[8mha:////4O3SIC7EmMJOSzYqFZph29D67fvlGwjn7YpWkkwd8nzUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FjNZavItEfG5w9bPrRfc0T0+2aa5A2JP43Rq9Io+DrrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Ofi93gsJ5wYaQMtonhCoI/V+VQQWLecYES/OTd8VnrzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PDkf7npkItTry7UMGfcuM3ZR7uGt3EeNf5HwJCzZg2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4BoXvqKSRv2tt4vbRXaySkhTrEgKbmzD5ko1pkkrjgaRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4E9AvEBDzyJLDnz+poVCa7V/hUalCx30ylpUnOf5Z2bWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] timeout
+[2026-05-19T12:23:28.248Z] Timeout set to expire in 20 min
+[8mha:////4LyJ0PItnYtv4Ol24yBZAM6p4JGZNQ4+e/1XXzIXzuNhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4PcXrniv4SvoOvbPnUTZ9WtMqUpHkY7CcBbcarDMjpr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4KrW1T3CjM1x38+3Eim7cX3+RXL4W8LC7W/cT+xAneinAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Environment)
+[8mha:////4IsbVT/c8glFYLDA6JZUQ1RpxfQJOQA/MGMZ0kyOJWRDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] bat
+[2026-05-19T12:23:28.591Z] 
+[2026-05-19T12:23:28.591Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>java -version 
+[2026-05-19T12:23:28.591Z] java version "21.0.8" 2025-07-15 LTS
+[2026-05-19T12:23:28.591Z] Java(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)
+[2026-05-19T12:23:28.591Z] Java HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)
+[8mha:////4E1lc5auqV0WjXaeDga7uoLqb5PUT1gDdVYNoMgMYwnaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] bat
+[2026-05-19T12:23:28.882Z] 
+[2026-05-19T12:23:28.882Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn -version 
+[2026-05-19T12:23:29.148Z] Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+[2026-05-19T12:23:29.148Z] Maven home: C:\tools\maven
+[2026-05-19T12:23:29.148Z] Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+[2026-05-19T12:23:29.148Z] Default locale: en_US, platform encoding: UTF-8
+[2026-05-19T12:23:29.148Z] OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[8mha:////4ElfHEZhAw7AEFGe7FBryAnPr+OtM5qFqIuKk1JFF/vIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4EOWQqvfDdSX3a0qaFvqLOGJv1uTsxV2oYA/Nxs7MiF4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4MQH8OOtpnQ84efh6JMH49okMLAqGmrtFq8cOYhg+gKZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxARxC6QrCAAAA[0m[Pipeline] stage
+[8mha:////4NvW4Bj7prqeHlkqh69rjV+blQSOg5vKwwMRvzdO8AwwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build ParaBank)
+[8mha:////4BjyZLjjZdozus5ogA5/jP6yjmp17nnAj+0Cl5ZsVC2jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] dir
+[2026-05-19T12:23:29.242Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4Pqmc3IVmtKg6eampezohr86axxybf7S4qx0OdARYxL8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4HPDoBiqrVdITUNykM7S8aDJKup/blAJG7YT7Yx+T8d0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] bat
+[2026-05-19T12:23:29.547Z] 
+[2026-05-19T12:23:29.547Z] D:\VVSS lab 5\parabank>mvn -DskipTests clean package 
+[2026-05-19T12:23:30.928Z] [INFO] Scanning for projects...
+[2026-05-19T12:23:31.192Z] [INFO] 
+[2026-05-19T12:23:31.192Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T12:23:31.192Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T12:23:31.192Z] [INFO]   from pom.xml
+[2026-05-19T12:23:31.192Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T12:23:33.716Z] [INFO] 
+[2026-05-19T12:23:33.716Z] [INFO] --- clean:3.5.0:clean (default-clean) @ parabank ---
+[2026-05-19T12:23:33.979Z] [INFO] Deleting D:\VVSS lab 5\parabank\target
+[2026-05-19T12:23:34.551Z] [INFO] 
+[2026-05-19T12:23:34.551Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T12:23:34.811Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T12:23:34.811Z] [INFO] 
+[2026-05-19T12:23:34.811Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T12:23:34.811Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T12:23:34.811Z] [INFO] 
+[2026-05-19T12:23:34.811Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T12:23:35.074Z] [INFO] Recompiling the module because of changed source code.
+[2026-05-19T12:23:35.074Z] [INFO] Compiling 168 source files with javac [debug release 17] to target\classes
+[2026-05-19T12:23:40.356Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/BookStoreDB.java:[266,28] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T12:23:40.356Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/CartService.java:[117,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T12:23:40.356Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore/BookStoreDB.java:[255,28] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T12:23:40.356Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore/CartService.java:[116,30] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T12:23:40.356Z] [WARNING] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/parabank/web/controller/ErrorController.java:[34,85] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[2026-05-19T12:23:40.356Z] [INFO] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/DB.java: Some input files use or override a deprecated API.
+[2026-05-19T12:23:40.356Z] [INFO] /D:/VVSS lab 5/parabank/src/main/java/com/parasoft/bookstore2/DB.java: Recompile with -Xlint:deprecation for details.
+[2026-05-19T12:23:40.356Z] [INFO] 
+[2026-05-19T12:23:40.356Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T12:23:40.356Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T12:23:40.356Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T12:23:40.356Z] [INFO] 
+[2026-05-19T12:23:40.356Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T12:23:40.356Z] [INFO] Recompiling the module because of changed dependency.
+[2026-05-19T12:23:40.356Z] [INFO] Compiling 116 source files with javac [debug release 17] to target\test-classes
+[2026-05-19T12:23:44.540Z] [WARNING] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/service/ParaBankServiceConfigurationTest.java:[24,22] Long(long) in java.lang.Long has been deprecated and marked for removal
+[2026-05-19T12:23:44.540Z] [INFO] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/test/util/LoanRequestTestConfig.java: Some input files use or override a deprecated API.
+[2026-05-19T12:23:44.540Z] [INFO] /D:/VVSS lab 5/parabank/src/test/java/com/parasoft/parabank/test/util/LoanRequestTestConfig.java: Recompile with -Xlint:deprecation for details.
+[2026-05-19T12:23:44.540Z] [INFO] 
+[2026-05-19T12:23:44.540Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T12:23:44.540Z] [INFO] Tests are skipped.
+[2026-05-19T12:23:44.540Z] [INFO] 
+[2026-05-19T12:23:44.540Z] [INFO] --- war:3.5.1:war (default-war) @ parabank ---
+[2026-05-19T12:23:44.540Z] [INFO] Packaging webapp
+[2026-05-19T12:23:44.804Z] [INFO] Assembling webapp [parabank] in [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT]
+[2026-05-19T12:23:44.804Z] [INFO] Processing war project
+[2026-05-19T12:23:44.804Z] [INFO] Copying webapp resources [D:\VVSS lab 5\parabank\src\main\webapp]
+[2026-05-19T12:23:47.317Z] [INFO] Building war: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war
+[2026-05-19T12:23:47.887Z] [INFO] 
+[2026-05-19T12:23:47.887Z] [INFO] --- source:3.4.0:jar-no-fork (attach-sources) @ parabank ---
+[2026-05-19T12:23:48.462Z] [INFO] Building jar: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources.jar
+[2026-05-19T12:23:48.462Z] [INFO] 
+[2026-05-19T12:23:48.462Z] [INFO] --- assembly:3.8.0:single (assemble-soavirt-source) @ parabank ---
+[2026-05-19T12:23:48.724Z] [INFO] Reading assembly descriptor: src/main/assembly/sources-jst_web.xml
+[2026-05-19T12:23:50.630Z] [INFO] Building zip: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources-jst_web.zip
+[2026-05-19T12:23:51.560Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:23:51.560Z] [INFO] BUILD SUCCESS
+[2026-05-19T12:23:51.560Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:23:51.560Z] [INFO] Total time:  20.468 s
+[2026-05-19T12:23:51.560Z] [INFO] Finished at: 2026-05-19T15:23:51+03:00
+[2026-05-19T12:23:51.560Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4LSbEs9k/ahCHWFPXJFVo/K8famveauJHmTWjFL/AcQoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4JjP9pgzwpBbIQtp5UqtoIy3zrTmtTj3dE67hs4lyYbUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // dir
+[8mha:////4ERPAi7PzW5PfmRCC7Pko/HtCPv5zyjqznDuqRpgj4GiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] }
+[8mha:////4L0XicWDQP4hRSfT0Ldtdp92+m7dsZpcdlB6jL4i0AnVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] // stage
+[8mha:////4KJ9btKSkjI8+CBIGmAbwTrwynGAZc68lfzO4v05uvmIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUGFhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEki13wwgAAAA==[0m[Pipeline] stage
+[8mha:////4GlYgvQibM1qwQqfv/Pe2NnIrPpDNswmRDNmfgYL4ZUHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Start ParaBank)
+[8mha:////4Bb9k8Fa5J1MVupHtsBlXWcnp7Bqrn0o0ENGYtnPhBxiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
+[2026-05-19T12:23:51.711Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4KiysbClrOJ1Vf0mftQgtKYg6pIK7Y6yznnjmamDYVpFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4NEArbzOpZvU8EfyZUz1r5x1QxJ/pDq4T7arEVciPbSOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] bat
+[8mha:////4O89P9g9G0y8wl3VaDTrVw3/9Cfw3GaJpMC1Yg4JozfEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4I2Viogi+tgtWhUJwvt5c090tdcL5xlLXd/NUeYu+yO6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // dir
+[8mha:////4BD1pzO3NljkYkYt9qKi1I+pSOse+9Dl+6bIiSivG1t5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] }
+[8mha:////4Cuc7c407WQ1+yG+PhSaFDx+0dgOKxBJUbfXmHBvTVQ4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FJO0jTr1uDu0q1et/tn2mqwQX5VYnLKOgwm5LsUO2WuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUhJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQE+8r7QwgAAAA==[0m[Pipeline] stage
+[8mha:////4FuosmfncrfWPfjw1eiaxlnMpzkIIK3odyjNCaCPUK+GAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Wait For ParaBank)
+[8mha:////4L4WYr2uPxQi3EG9I0Oh7LZ9PEueTlaFm7/8lJiJTheqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] dir
+[2026-05-19T12:23:52.187Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4OCPxjhGkRhoRGsSmz/yR2t/k0Qs6I5eSVXLrYnHjD2GAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4Gg6ZYFCZ+fKQcuQfA907jat+aF6b8AjvhVhhqs7f0pAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] bat
+[2026-05-19T12:23:54.769Z] ParaBank not ready yet, attempt 1
+[2026-05-19T12:24:00.044Z] ParaBank not ready yet, attempt 2
+[2026-05-19T12:24:32.120Z] ParaBank not ready yet, attempt 3
+[8mha:////4GYzNqN27Ez4qiVPBiODtsyptcyHX7fYsYk1G3RRU9thAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4LzmeJHdXzBrUJFoJLlFnHm2V8sVWed6TSUHZKz6Y9IHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // dir
+[8mha:////4KuON7rL1NY7np0hIZDueagbKyFEE1cYhu4IZ2UM+xFtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+i7k/SvgAAAA==[0m[Pipeline] }
+[8mha:////4Ig/QuI6rx0cDQybh2rH2iOtB+DyHFNRhiz+TEnoA7NKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPr1sGoC+AAAA[0m[Pipeline] // stage
+[8mha:////4CCcXIqvOrVnHlSjVwFZ+vBfZjCNidJOVUoOpg3lqaRuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUpG6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Xbam+TyrNxUfRd7CAAAA[0m[Pipeline] stage
+[8mha:////4BNPfG5eH4OBPOtgPLwylEEfDjoOpC5qgX2qh2eh6JpYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Run Tests)
+[8mha:////4N8/sKT1utWPw9VlBkcNbP+fLKYUuOipASqMT4Tqk5OtAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] dir
+[2026-05-19T12:24:34.196Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4CpVmnxaX/kSnr8XR9X8pwiz+U+Qrmq5wc9H10xkWOjZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4FAftz29/jJ1HMSC+X2LRak4nnzlVER87NwjqXaSmoVIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] bat
+[2026-05-19T12:24:34.501Z] 
+[2026-05-19T12:24:34.501Z] D:\VVSS lab 5\parabank>mvn test "-Dtest=LoginBlackBoxTest,ScenarioBasedTest" 
+[2026-05-19T12:24:35.886Z] [INFO] Scanning for projects...
+[2026-05-19T12:24:36.148Z] [INFO] 
+[2026-05-19T12:24:36.148Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T12:24:36.148Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T12:24:36.148Z] [INFO]   from pom.xml
+[2026-05-19T12:24:36.148Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T12:24:39.437Z] [INFO] 
+[2026-05-19T12:24:39.437Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T12:24:39.437Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T12:24:39.437Z] [INFO] 
+[2026-05-19T12:24:39.437Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T12:24:39.437Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T12:24:39.437Z] [INFO] 
+[2026-05-19T12:24:39.437Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T12:24:39.702Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T12:24:39.702Z] [INFO] 
+[2026-05-19T12:24:39.702Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T12:24:39.702Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T12:24:39.702Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T12:24:39.702Z] [INFO] 
+[2026-05-19T12:24:39.702Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T12:24:39.702Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T12:24:39.702Z] [INFO] 
+[2026-05-19T12:24:39.702Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T12:24:39.965Z] [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[2026-05-19T12:24:39.965Z] [INFO] 
+[2026-05-19T12:24:39.965Z] [INFO] -------------------------------------------------------
+[2026-05-19T12:24:39.965Z] [INFO]  T E S T S
+[2026-05-19T12:24:39.965Z] [INFO] -------------------------------------------------------
+[2026-05-19T12:24:40.916Z] [INFO] Running com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+[2026-05-19T12:24:42.301Z] 15:24:42.024 [main] INFO   - 
+[2026-05-19T12:24:42.301Z] 
+[2026-05-19T12:24:42.301Z] -------------------------------------------------------------------------------------
+[2026-05-19T12:24:42.301Z]      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+[2026-05-19T12:24:42.301Z]     /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+[2026-05-19T12:24:42.301Z]    |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+[2026-05-19T12:24:42.301Z]     \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+[2026-05-19T12:24:42.301Z] .----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+[2026-05-19T12:24:42.301Z] |_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+[2026-05-19T12:24:42.301Z]                                                                                      
+[2026-05-19T12:24:42.301Z]  News and tutorials at http://www.serenity-bdd.info                                  
+[2026-05-19T12:24:42.301Z]  Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+[2026-05-19T12:24:42.301Z]  Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+[2026-05-19T12:24:42.301Z]  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+[2026-05-19T12:24:42.301Z] -------------------------------------------------------------------------------------
+[2026-05-19T12:24:42.301Z] 
+[2026-05-19T12:24:42.301Z] 15:24:42.039 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T12:24:42.301Z] 15:24:42.064 [main] INFO   - 
+[2026-05-19T12:24:42.301Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:42.301Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:42.301Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:42.301Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:42.301Z] 
+[2026-05-19T12:24:42.301Z] login_should_match_expected_result_from_csv[0]
+[2026-05-19T12:24:42.301Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:44.847Z] 15:24:44.216 [pool-3-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:45.419Z] 15:24:45.382 [pool-3-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:45.681Z] 15:24:45.585 [main] INFO   - 
+[2026-05-19T12:24:45.681Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:45.681Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:45.681Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:45.681Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:45.681Z] 
+[2026-05-19T12:24:45.681Z] Login should match expected result from csv
+[2026-05-19T12:24:45.681Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:45.940Z] 15:24:45.806 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T12:24:45.940Z] 15:24:45.813 [main] INFO   - 
+[2026-05-19T12:24:45.940Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:45.940Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:45.940Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:45.940Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:45.940Z] 
+[2026-05-19T12:24:45.940Z] login_should_match_expected_result_from_csv[1]
+[2026-05-19T12:24:45.940Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:46.203Z] 15:24:45.926 [pool-4-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:46.465Z] 15:24:46.227 [pool-4-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:46.465Z] 15:24:46.360 [main] INFO   - 
+[2026-05-19T12:24:46.465Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:46.465Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:46.465Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:46.465Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:46.465Z] 
+[2026-05-19T12:24:46.465Z] Login should match expected result from csv
+[2026-05-19T12:24:46.465Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:46.465Z] 15:24:46.365 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T12:24:46.465Z] 15:24:46.369 [main] INFO   - 
+[2026-05-19T12:24:46.465Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:46.465Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:46.465Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:46.465Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:46.465Z] 
+[2026-05-19T12:24:46.465Z] login_should_match_expected_result_from_csv[2]
+[2026-05-19T12:24:46.465Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:46.728Z] 15:24:46.449 [pool-5-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:46.728Z] 15:24:46.600 [pool-5-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:46.728Z] 15:24:46.673 [main] INFO   - 
+[2026-05-19T12:24:46.728Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:46.728Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:46.728Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:46.728Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:46.728Z] 
+[2026-05-19T12:24:46.728Z] Login should match expected result from csv
+[2026-05-19T12:24:46.728Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:46.728Z] 15:24:46.678 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T12:24:46.728Z] 15:24:46.684 [main] INFO   - 
+[2026-05-19T12:24:46.728Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:46.728Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:46.728Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:46.728Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:46.728Z] 
+[2026-05-19T12:24:46.728Z] login_should_match_expected_result_from_csv[3]
+[2026-05-19T12:24:46.728Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:46.991Z] 15:24:46.786 [pool-6-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:46.991Z] 15:24:46.926 [pool-6-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:47.254Z] 15:24:46.989 [main] INFO   - 
+[2026-05-19T12:24:47.254Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:47.254Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:47.254Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:47.254Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:47.254Z] 
+[2026-05-19T12:24:47.254Z] Login should match expected result from csv
+[2026-05-19T12:24:47.254Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:47.516Z] [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.663 s -- in com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+[2026-05-19T12:24:47.516Z] [INFO] Running com.parasoft.parabank.serenity.tests.ScenarioBasedTest
+[2026-05-19T12:24:47.516Z] 15:24:47.299 [main] INFO   - Test Suite Started: Scenario based test
+[2026-05-19T12:24:47.516Z] 15:24:47.307 [main] INFO   - 
+[2026-05-19T12:24:47.516Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:47.516Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:47.516Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:47.516Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:47.516Z] 
+[2026-05-19T12:24:47.516Z] testScenario3_LoginAndTransfer
+[2026-05-19T12:24:47.516Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:48.091Z] 15:24:47.728 [pool-8-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:48.091Z] 15:24:47.862 [pool-8-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:49.023Z] 15:24:48.720 [main] INFO   - 
+[2026-05-19T12:24:49.023Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:49.023Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:49.023Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:49.023Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:49.023Z] 
+[2026-05-19T12:24:49.023Z] Test scenario3 login and transfer
+[2026-05-19T12:24:49.023Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:49.023Z] 15:24:48.724 [main] INFO   - 
+[2026-05-19T12:24:49.023Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:49.023Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:49.023Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:49.023Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:49.023Z] 
+[2026-05-19T12:24:49.023Z] testScenario1_LoginValid
+[2026-05-19T12:24:49.023Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:49.023Z] 15:24:48.835 [pool-9-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:49.023Z] 15:24:48.946 [pool-9-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:49.023Z] 15:24:48.998 [main] INFO   - 
+[2026-05-19T12:24:49.023Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:49.023Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:49.023Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:49.023Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:49.023Z] 
+[2026-05-19T12:24:49.023Z] Test scenario1 login valid
+[2026-05-19T12:24:49.023Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:49.284Z] 15:24:49.002 [main] INFO   - 
+[2026-05-19T12:24:49.284Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:49.284Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:49.284Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:49.284Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:49.284Z] 
+[2026-05-19T12:24:49.284Z] testScenario5_LoginAddMultipleAccountsLogout
+[2026-05-19T12:24:49.284Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:49.284Z] 15:24:49.115 [pool-10-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:49.284Z] 15:24:49.227 [pool-10-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:49.843Z] 15:24:49.604 [main] INFO   - 
+[2026-05-19T12:24:49.843Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:49.843Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:49.843Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:49.843Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:49.843Z] 
+[2026-05-19T12:24:49.843Z] Test scenario5 login add multiple accounts logout
+[2026-05-19T12:24:49.843Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:49.843Z] 15:24:49.607 [main] INFO   - 
+[2026-05-19T12:24:49.843Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:49.843Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:49.843Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:49.843Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:49.843Z] 
+[2026-05-19T12:24:49.843Z] testScenario6_LoginMultipleTransfersLogout
+[2026-05-19T12:24:49.843Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:49.843Z] 15:24:49.730 [pool-11-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:50.102Z] 15:24:49.839 [pool-11-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:50.358Z] 15:24:50.345 [main] INFO   - 
+[2026-05-19T12:24:50.358Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:50.358Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:50.358Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:50.358Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:50.358Z] 
+[2026-05-19T12:24:50.358Z] Test scenario6 login multiple transfers logout
+[2026-05-19T12:24:50.358Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:50.617Z] 15:24:50.350 [main] INFO   - 
+[2026-05-19T12:24:50.617Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:50.617Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:50.617Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:50.617Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:50.617Z] 
+[2026-05-19T12:24:50.617Z] testScenario4_CompleteWorkflow
+[2026-05-19T12:24:50.617Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:50.617Z] 15:24:50.484 [pool-12-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:50.876Z] 15:24:50.593 [pool-12-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:51.139Z] 15:24:50.908 [JS executor for com.gargoylesoftware.htmlunit.WebClient@3c3d5979] ERROR com.gargoylesoftware.htmlunit.javascript.DefaultJavaScriptErrorListener - Error during JavaScript execution
+[2026-05-19T12:24:51.139Z] com.gargoylesoftware.htmlunit.ScriptException: Cannot invoke "net.sourceforge.htmlunit.corejs.javascript.Scriptable.get(String, net.sourceforge.htmlunit.corejs.javascript.Scriptable)" because the return value of "com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getPrototype()" is null
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.executeEventLocally(EventTarget.java:102)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.fireJavascriptEventIgnoreAbort(XMLHttpRequest.java:266)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.fireJavascriptEvent(XMLHttpRequest.java:235)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.doSend(XMLHttpRequest.java:1075)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest$1.run(XMLHttpRequest.java:821)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.JavascriptXMLHttpRequestJob.run(JavascriptXMLHttpRequestJob.java:36)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManagerImpl.runSingleJob(JavaScriptJobManagerImpl.java:428)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.DefaultJavaScriptExecutor.run(DefaultJavaScriptExecutor.java:151)
+[2026-05-19T12:24:51.139Z] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026-05-19T12:24:51.139Z] Caused by: java.lang.NullPointerException: Cannot invoke "net.sourceforge.htmlunit.corejs.javascript.Scriptable.get(String, net.sourceforge.htmlunit.corejs.javascript.Scriptable)" because the return value of "com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getPrototype()" is null
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getWithPreemption(HTMLDocument.java:656)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitScriptable.get(HtmlUnitScriptable.java:129)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.dom.Document.get(Document.java:1144)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitScriptableProxy.get(HtmlUnitScriptableProxy.java:52)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.getProperty(ScriptableObject.java:2034)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1676)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1671)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1556)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
+[2026-05-19T12:24:51.139Z] 	... 20 more
+[2026-05-19T12:24:51.139Z] 15:24:50.910 [JS executor for com.gargoylesoftware.htmlunit.WebClient@3c3d5979] ERROR com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManagerImpl - Job run failed with unexpected RuntimeException: Cannot invoke "net.sourceforge.htmlunit.corejs.javascript.Scriptable.get(String, net.sourceforge.htmlunit.corejs.javascript.Scriptable)" because the return value of "com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getPrototype()" is null
+[2026-05-19T12:24:51.139Z] com.gargoylesoftware.htmlunit.ScriptException: Cannot invoke "net.sourceforge.htmlunit.corejs.javascript.Scriptable.get(String, net.sourceforge.htmlunit.corejs.javascript.Scriptable)" because the return value of "com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getPrototype()" is null
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.executeEventLocally(EventTarget.java:102)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.fireJavascriptEventIgnoreAbort(XMLHttpRequest.java:266)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.fireJavascriptEvent(XMLHttpRequest.java:235)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.doSend(XMLHttpRequest.java:1075)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest$1.run(XMLHttpRequest.java:821)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.JavascriptXMLHttpRequestJob.run(JavascriptXMLHttpRequestJob.java:36)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManagerImpl.runSingleJob(JavaScriptJobManagerImpl.java:428)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.background.DefaultJavaScriptExecutor.run(DefaultJavaScriptExecutor.java:151)
+[2026-05-19T12:24:51.139Z] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026-05-19T12:24:51.139Z] Caused by: java.lang.NullPointerException: Cannot invoke "net.sourceforge.htmlunit.corejs.javascript.Scriptable.get(String, net.sourceforge.htmlunit.corejs.javascript.Scriptable)" because the return value of "com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getPrototype()" is null
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument.getWithPreemption(HTMLDocument.java:656)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitScriptable.get(HtmlUnitScriptable.java:129)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.host.dom.Document.get(Document.java:1144)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitScriptableProxy.get(HtmlUnitScriptableProxy.java:52)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.getProperty(ScriptableObject.java:2034)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1676)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1671)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1556)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
+[2026-05-19T12:24:51.139Z] 	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+[2026-05-19T12:24:51.139Z] 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
+[2026-05-19T12:24:51.139Z] 	... 20 more
+[2026-05-19T12:24:51.139Z] 15:24:50.969 [main] INFO   - 
+[2026-05-19T12:24:51.139Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:51.139Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:51.139Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:51.139Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:51.139Z] 
+[2026-05-19T12:24:51.139Z] Test scenario4 complete workflow
+[2026-05-19T12:24:51.139Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:51.139Z] 15:24:50.972 [main] INFO   - 
+[2026-05-19T12:24:51.139Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:51.139Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:51.139Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:51.139Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:51.139Z] 
+[2026-05-19T12:24:51.139Z] testScenario2_LoginAndAddAccount
+[2026-05-19T12:24:51.139Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:51.397Z] 15:24:51.143 [pool-13-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:51.397Z] 15:24:51.253 [pool-13-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:51.664Z] 15:24:51.402 [main] INFO   - 
+[2026-05-19T12:24:51.664Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:51.664Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:51.664Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:51.664Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:51.664Z] 
+[2026-05-19T12:24:51.664Z] Test scenario2 login and add account
+[2026-05-19T12:24:51.664Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:51.664Z] 15:24:51.404 [main] INFO   - 
+[2026-05-19T12:24:51.664Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T12:24:51.664Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T12:24:51.664Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T12:24:51.664Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T12:24:51.664Z] 
+[2026-05-19T12:24:51.664Z] testScenario7_ComplexWorkflow
+[2026-05-19T12:24:51.664Z] --------------------------------------------------------------------------------
+[2026-05-19T12:24:51.664Z] 15:24:51.495 [pool-14-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:51.664Z] 15:24:51.577 [pool-14-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: 'text/javascript'.
+[2026-05-19T12:24:52.231Z] 15:24:51.982 [main] INFO   - 
+[2026-05-19T12:24:52.231Z]   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+[2026-05-19T12:24:52.231Z]  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+[2026-05-19T12:24:52.231Z]    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+[2026-05-19T12:24:52.231Z]    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+[2026-05-19T12:24:52.231Z] 
+[2026-05-19T12:24:52.231Z] Test scenario7 complex workflow
+[2026-05-19T12:24:52.231Z] ----------------------------------------------------------------------
+[2026-05-19T12:24:52.231Z] [INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.670 s -- in com.parasoft.parabank.serenity.tests.ScenarioBasedTest
+[2026-05-19T12:24:52.489Z] [INFO] 
+[2026-05-19T12:24:52.489Z] [INFO] Results:
+[2026-05-19T12:24:52.489Z] [INFO] 
+[2026-05-19T12:24:52.489Z] [INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[2026-05-19T12:24:52.489Z] [INFO] 
+[2026-05-19T12:24:52.489Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:24:52.489Z] [INFO] BUILD SUCCESS
+[2026-05-19T12:24:52.489Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:24:52.489Z] [INFO] Total time:  16.563 s
+[2026-05-19T12:24:52.489Z] [INFO] Finished at: 2026-05-19T15:24:52+03:00
+[2026-05-19T12:24:52.489Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4NtagAkf2ffcd/8LEH/iWNQM6qtW9MPn/o1iEFvfobgDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] bat
+[2026-05-19T12:24:53.038Z] 
+[2026-05-19T12:24:53.038Z] D:\VVSS lab 5\parabank>mvn "net.serenity-bdd.maven.plugins:serenity-maven-plugin:3.9.0:aggregate" 
+[2026-05-19T12:24:54.947Z] [INFO] Scanning for projects...
+[2026-05-19T12:24:54.947Z] [INFO] 
+[2026-05-19T12:24:54.947Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T12:24:54.947Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T12:24:54.947Z] [INFO]   from pom.xml
+[2026-05-19T12:24:54.947Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T12:24:57.476Z] [INFO] 
+[2026-05-19T12:24:57.476Z] [INFO] --- serenity:3.9.0:aggregate (default-cli) @ parabank ---
+[2026-05-19T12:25:00.757Z] [INFO] GENERATING REPORTS USING 32 THREADS
+[2026-05-19T12:25:07.334Z] [INFO] GENERATING SUMMARY REPORTS...
+[2026-05-19T12:25:07.585Z] [INFO] GENERATING REQUIREMENTS REPORTS...
+[2026-05-19T12:25:08.972Z] [INFO] GENERATING RESULT REPORTS...
+[2026-05-19T12:25:09.223Z] [INFO] GENERATING ERROR REPORTS...
+[2026-05-19T12:25:09.223Z] [INFO] Test results for 11 tests generated in 8.5 secs in directory: file:/D:/VVSS%20lab%205/parabank/target/site/serenity/
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------
+[2026-05-19T12:25:09.223Z] [INFO] | SERENITY TESTS:               | SUCCESS
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------
+[2026-05-19T12:25:09.223Z] [INFO] | Test scenarios executed       | 8
+[2026-05-19T12:25:09.223Z] [INFO] | Total Test cases executed     | 11
+[2026-05-19T12:25:09.223Z] [INFO] | Tests passed                  | 11
+[2026-05-19T12:25:09.223Z] [INFO] | Tests failed                  | 0
+[2026-05-19T12:25:09.223Z] [INFO] | Tests with errors             | 0
+[2026-05-19T12:25:09.223Z] [INFO] | Tests compromised             | 0
+[2026-05-19T12:25:09.223Z] [INFO] | Tests aborted                 | 0
+[2026-05-19T12:25:09.223Z] [INFO] | Tests pending                 | 0
+[2026-05-19T12:25:09.223Z] [INFO] | Tests ignored/skipped         | 0
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------- | --------------
+[2026-05-19T12:25:09.223Z] [INFO] | Total Duration| 9s 303ms
+[2026-05-19T12:25:09.223Z] [INFO] | Fastest test took| 271ms
+[2026-05-19T12:25:09.223Z] [INFO] | Slowest test took| 3s 509ms
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------
+[2026-05-19T12:25:09.223Z] [INFO] 
+[2026-05-19T12:25:09.223Z] [INFO] SERENITY REPORTS
+[2026-05-19T12:25:09.223Z] [INFO]   - Full Report: file:///D:/VVSS%20lab%205/parabank/target/site/serenity/index.html
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:25:09.223Z] [INFO] BUILD SUCCESS
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:25:09.223Z] [INFO] Total time:  14.636 s
+[2026-05-19T12:25:09.223Z] [INFO] Finished at: 2026-05-19T15:25:09+03:00
+[2026-05-19T12:25:09.223Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4JH3Q52OW0GTJOclkQh097Qv4PO9P+mV228PfKupDKoWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9M4rYBvgAAAA==[0m[Pipeline] }
+[8mha:////4CvpBaMKRrHnSmJyXaZNwphAVFcwvKh9Cwxzbf5WA1ZJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9/Ae29vgAAAA==[0m[Pipeline] // dir
+[8mha:////4GfHmmCItOOb8BqU+q98wsqPVnswaajQGLEVxDZf8uaYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFrInCivgAAAA==[0m[Pipeline] }
+[8mha:////4CMbEoDPBBayw1CxRqyeBZHlYxiwYOo8w/Sz2/roJWaYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP1jBKx6+AAAA[0m[Pipeline] // stage
+[8mha:////4O0fBNhiLieKAkVFbYc8DZRjnp5e8vYlmmXzo9V8jHGXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2z73edZvQGhFDJ4wgAAAA==[0m[Pipeline] stage
+[8mha:////4G0Kfvs4yIWGIw08MdAvYd1qxucXdWG8QbT6zBvA4N2IAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4DyHLwcqvdswRZwHsjxeBIS9em9mL6HYBYVzXdx86vYWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] dir
+[2026-05-19T12:25:09.387Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4A041kll07WSYldyLM1n2Y5s/AzAFQkVjQ7A3uBQ4njpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4LNlYYGA0/NdVQnejD7HZKn4is3BnwaCqDjKMBTq64N5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] bat
+[2026-05-19T12:25:09.690Z] 
+[2026-05-19T12:25:09.690Z] D:\VVSS lab 5\parabank>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop" 
+[2026-05-19T12:25:11.614Z] [INFO] Scanning for projects...
+[2026-05-19T12:25:11.614Z] [INFO] 
+[2026-05-19T12:25:11.614Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T12:25:11.614Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T12:25:11.614Z] [INFO]   from pom.xml
+[2026-05-19T12:25:11.614Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T12:25:14.163Z] [INFO] 
+[2026-05-19T12:25:14.163Z] [INFO] --- cargo:1.10.27:stop (default-cli) @ parabank ---
+[2026-05-19T12:25:14.734Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T12:25:15.308Z] [INFO] Tomcat 10.1.54 is stopping...
+[2026-05-19T12:25:33.378Z] [INFO] Tomcat 10.1.54 is stopped
+[2026-05-19T12:25:33.378Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:25:33.378Z] [INFO] BUILD SUCCESS
+[2026-05-19T12:25:33.378Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T12:25:33.378Z] [INFO] Total time:  20.397 s
+[2026-05-19T12:25:33.378Z] [INFO] Finished at: 2026-05-19T15:25:31+03:00
+[2026-05-19T12:25:33.378Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4HC0/WHGNWx0+sn4bPDYldsdRNzKE8P1ts0pDkJKLtB/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
+[8mha:////4I58LE9fZLuQEqnds11Y8BeCP3ln3FVrEaP+emTg8csxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // dir
+[8mha:////4FmfhLEVOUypGxordoJIbllRVMUCjYfBjcckbU4cj8KpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+QVnXuQ57/wEKbQxrvgAAAA==[0m[Pipeline] powershell
+[8mha:////4FsF4yDCwgSS7QVoXTKeSVur4tlGkqE3tG3EV/6zVThiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQioLYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwRl02Tb7z7P6g0cetLtwgAAAA==[0m[Pipeline] dir
+[2026-05-19T12:25:36.026Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4NxU3rf7pijnjxiCFEOrdqb9pmJqcU0lJPPO77wSK8hfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4DkqlKcTQbVZL5TDga1KMp0UfgYRM9zRNa0MUuJt4jj2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] junit
+[2026-05-19T12:25:36.058Z] Recording test results
+[2026-05-19T12:25:36.073Z] [Checks API] No suitable checks publisher found.
+[8mha:////4E5iXh1HRULEuVFFfXbqF2CFx7zq3HxDVpyoGpDyQ1VcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN9eaP+K+AAAA[0m[Pipeline] archiveArtifacts
+[2026-05-19T12:25:36.098Z] Archiving artifacts
+[8mha:////4EYh0DBlZta5yKOGMDZu3dP1EB6EUC3G/IsWKtwNy/TeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKVBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N1e9XNO+AAAA[0m[Pipeline] }
+[8mha:////4Jv16n3wQDsXGLUWRURbpDxuQpWSURimKGEosnj2TFY2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFkXgdvvgAAAA==[0m[Pipeline] // dir
+[8mha:////4G3ugIp51TvfNue+bgkmIm/hy/UcYqkbFEUwUxEBcVpFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBSEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHRKhgrvgAAAA==[0m[Pipeline] }
+[8mha:////4BrSIY0QmxBSRr1l7P+ztWgCRxLAbX09Utr83Cxd6/jaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSABJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w/iyUOXvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JSvpFPmuR/kGsBXee5x0S9R7dinPjUtAJObbxJYLtFNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISKgpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP4OSOnW+AAAA[0m[Pipeline] }
+[8mha:////4PBFZ50ncZ3ITx5xA+RmdQ+74JOEdUZQBAEYZGFzvpn9AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPlZ3NR70AAAA=[0m[Pipeline] // timeout
+[8mha:////4PYy5R4ME15sqUrNDzmV/sPSz9UyEQo+YF6fbzxT4z38AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/ANPXane9AAAA[0m[Pipeline] }
+[8mha:////4EZKpp5sUE/5OlUFfgRxhaaph77bmlxt2FAWZ107zc0PAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvNwLsvID8uO12r0AAAA=[0m[Pipeline] // timestamps
+[8mha:////4OaJ6GuXiim0qPUrE7t5X3Kuo5nHRpt95G9r9/G6Eio3AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPdA+SH70AAAA=[0m[Pipeline] }
+[8mha:////4BxPgM625pVUKnVeKXOIK2MiSMXltgMO2EJOBd0RGrCDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJUjIVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAfnf7u70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4LOBrtJIFQMMHja6kThgaE+j8jJEVieeURX33qRN0yE5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPOD1ci70AAAA=[0m[Pipeline] }
+[8mha:////4PEXT8Kh0QKa869Ot8xsFwgF6tqBuInWuKcmvnlhvx2YAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvCwF2f4DK4FYKL0AAAA=[0m[Pipeline] // node
+[8mha:////4OwSpADypAgoC1xI7BpummnAO6XNK9qcLhSESStjfY6CAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AGwmD929AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

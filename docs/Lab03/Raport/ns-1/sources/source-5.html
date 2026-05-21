@@ -1,0 +1,214 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > StocService</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">drinkshop.service</a>
+</div>
+
+<h1>Coverage Summary for Class: StocService (drinkshop.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">StocService</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    50%
+  </span>
+  <span class="absValue">
+    (4/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    94.4%
+  </span>
+  <span class="absValue">
+    (17/18)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    89.2%
+  </span>
+  <span class="absValue">
+    (33/37)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package drinkshop.service;
+&nbsp;
+&nbsp;import drinkshop.domain.IngredientReteta;
+&nbsp;import drinkshop.domain.Reteta;
+&nbsp;import drinkshop.domain.Stoc;
+&nbsp;import drinkshop.repository.Repository;
+&nbsp;import drinkshop.service.validator.InsufficientStockException;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;public class StocService {
+&nbsp;
+&nbsp;    private final Repository&lt;Integer, Stoc&gt; stocRepo;
+&nbsp;
+<b class="fc">&nbsp;    public StocService(Repository&lt;Integer, Stoc&gt; stocRepo) {</b>
+<b class="fc">&nbsp;        this.stocRepo = stocRepo;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public List&lt;Stoc&gt; getAll() {
+<b class="nc">&nbsp;        return stocRepo.findAll();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public void add(Stoc s) {
+<b class="nc">&nbsp;        stocRepo.save(s);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public void update(Stoc s) {
+<b class="nc">&nbsp;        stocRepo.update(s);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public void delete(int id) {
+<b class="nc">&nbsp;        stocRepo.delete(id);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public boolean areSuficient(Reteta reteta) {
+<b class="fc">&nbsp;        if (reteta.getIngrediente() == null) {</b>
+<b class="fc">&nbsp;            return true;</b>
+&nbsp;        }
+<b class="fc">&nbsp;        for (IngredientReteta e : reteta.getIngrediente()) {</b>
+<b class="fc">&nbsp;            String ingredient = e.getDenumire();</b>
+<b class="fc">&nbsp;            double necesar = e.getCantitate();</b>
+&nbsp;
+<b class="fc">&nbsp;            double disponibil = stocRepo.findAll().stream()</b>
+<b class="fc">&nbsp;                    .filter(s -&gt; s.getIngredient().equalsIgnoreCase(ingredient))</b>
+<b class="fc">&nbsp;                    .mapToDouble(Stoc::getCantitate)</b>
+<b class="fc">&nbsp;                    .sum();</b>
+&nbsp;
+<b class="fc">&nbsp;            if (disponibil &lt; necesar) {</b>
+<b class="fc">&nbsp;                return false;</b>
+&nbsp;            }
+&nbsp;        }
+<b class="fc">&nbsp;        return true;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public void consuma(Reteta reteta) {
+&nbsp;        // P1: Verificare stoc global
+<b class="fc">&nbsp;        if (!areSuficient(reteta)) {</b>
+<b class="fc">&nbsp;            throw new InsufficientStockException(</b>
+<b class="fc">&nbsp;                    &quot;Stoc insuficient pentru reteta produsului cu id=&quot; + reteta.getId());</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        // P2: Verificare existență listă ingrediente (pentru a crește CC)
+<b class="fc">&nbsp;        if (reteta.getIngrediente() == null) {</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+&nbsp;        // P3: Structură repetitivă (Loop)
+<b class="fc">&nbsp;        for (IngredientReteta e : reteta.getIngrediente()) {</b>
+&nbsp;
+&nbsp;            // P4: Verificare validitate ingredient (pentru a crește CC)
+<b class="fc">&nbsp;            if (e.getCantitate() &gt; 0) {</b>
+<b class="fc">&nbsp;                String ingredient = e.getDenumire();</b>
+<b class="fc">&nbsp;                double necesar = e.getCantitate();</b>
+&nbsp;
+&nbsp;                // Apel către metoda extrasă (fără imbricare)
+<b class="fc">&nbsp;                proceseazaScadereStoc(ingredient, necesar);</b>
+&nbsp;            }
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    private void proceseazaScadereStoc(String ingredient, double necesar) {
+<b class="fc">&nbsp;        List&lt;Stoc&gt; ingredienteStoc = stocRepo.findAll().stream()</b>
+<b class="fc">&nbsp;                .filter(s -&gt; s.getIngredient().equalsIgnoreCase(ingredient))</b>
+<b class="fc">&nbsp;                .toList();</b>
+&nbsp;
+<b class="fc">&nbsp;        double ramas = necesar;</b>
+&nbsp;
+<b class="fc">&nbsp;        for (Stoc s : ingredienteStoc) {</b>
+<b class="pc">&nbsp;            if (ramas &lt;= 0) break;</b>
+&nbsp;
+<b class="fc">&nbsp;            double deScazut = Math.min(s.getCantitate(), ramas);</b>
+<b class="fc">&nbsp;            s.setCantitate((int) (s.getCantitate() - deScazut));</b>
+<b class="fc">&nbsp;            ramas -= deScazut;</b>
+&nbsp;
+<b class="fc">&nbsp;            stocRepo.update(s);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2026-05-14 16:08</div>
+</div>
+</body>
+</html>

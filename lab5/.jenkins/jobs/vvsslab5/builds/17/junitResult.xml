@@ -1,0 +1,370 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1403.vd9d1413fd205">
+  <suites>
+    <suite>
+      <file>D:\VVSS lab 5\parabank\target\surefire-reports\TEST-com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.xml</file>
+      <name>com.parasoft.parabank.serenity.tests.LoginBlackBoxTest</name>
+      <duration>6.663</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>6.663</time>
+      <nodeId>64</nodeId>
+      <enclosingBlocks>
+        <string>55</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Declarative: Post Actions</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>3.536</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.LoginBlackBoxTest</className>
+          <testName>login_should_match_expected_result_from_csv[0]</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:42.024 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |
+...[truncated 996 chars]...
+  |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+login_should_match_expected_result_from_csv[0]
+--------------------------------------------------------------------------------
+15:24:44.216 [pool-3-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:45.382 [pool-3-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.554</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.LoginBlackBoxTest</className>
+          <testName>login_should_match_expected_result_from_csv[1]</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:45.585 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Login should match expected result from csv
+----------------------------------------------------------------------
+15:24:45.806 [main] INFO   - Test Suite Started: Login black box test
+15:2
+...[truncated 273 chars]...
+  |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+login_should_match_expected_result_from_csv[1]
+--------------------------------------------------------------------------------
+15:24:45.926 [pool-4-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:46.227 [pool-4-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.306</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.LoginBlackBoxTest</className>
+          <testName>login_should_match_expected_result_from_csv[2]</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:46.360 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Login should match expected result from csv
+----------------------------------------------------------------------
+15:24:46.365 [main] INFO   - Test Suite Started: Login black box test
+15:2
+...[truncated 273 chars]...
+  |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+login_should_match_expected_result_from_csv[2]
+--------------------------------------------------------------------------------
+15:24:46.449 [pool-5-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:46.600 [pool-5-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.31</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.LoginBlackBoxTest</className>
+          <testName>login_should_match_expected_result_from_csv[3]</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:46.673 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Login should match expected result from csv
+----------------------------------------------------------------------
+15:24:46.678 [main] INFO   - Test Suite Started: Login black box test
+15:2
+...[truncated 273 chars]...
+  |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+login_should_match_expected_result_from_csv[3]
+--------------------------------------------------------------------------------
+15:24:46.786 [pool-6-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:46.926 [pool-6-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\VVSS lab 5\parabank\target\surefire-reports\TEST-com.parasoft.parabank.serenity.tests.ScenarioBasedTest.xml</file>
+      <name>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</name>
+      <duration>4.67</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>4.67</time>
+      <nodeId>64</nodeId>
+      <enclosingBlocks>
+        <string>55</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Declarative: Post Actions</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>1.38</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario3_LoginAndTransfer</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:47.299 [main] INFO   - Test Suite Started: Scenario based test
+15:24:47.307 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario3_LoginAndTransfer
+--------------------------------------------------------------------------------
+15:24:47.728 [pool-8-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:47.862 [pool-8-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.273</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario1_LoginValid</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:48.720 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario3 login and transfer
+----------------------------------------------------------------------
+15:24:48.724 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     
+...[truncated 171 chars]...
+  | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario1_LoginValid
+--------------------------------------------------------------------------------
+15:24:48.835 [pool-9-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:48.946 [pool-9-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.601</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario5_LoginAddMultipleAccountsLogout</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:48.998 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario1 login valid
+----------------------------------------------------------------------
+15:24:49.002 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _
+...[truncated 186 chars]...
+  |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario5_LoginAddMultipleAccountsLogout
+--------------------------------------------------------------------------------
+15:24:49.115 [pool-10-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:49.227 [pool-10-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.737</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario6_LoginMultipleTransfersLogout</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:49.604 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario5 login add multiple accounts logout
+----------------------------------------------------------------------
+15:24:49.607 [main] INFO   - 
+  _____   ___   ___   _____     ___   
+...[truncated 207 chars]...
+|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario6_LoginMultipleTransfersLogout
+--------------------------------------------------------------------------------
+15:24:49.730 [pool-11-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:49.839 [pool-11-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.619</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario4_CompleteWorkflow</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:50.345 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario6 login multiple transfers logout
+----------------------------------------------------------------------
+15:24:50.350 [main] INFO   - 
+  _____   ___   ___   _____     ___   ___
+...[truncated 9524 chars]...
+corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
+	... 20 more
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.428</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario2_LoginAndAddAccount</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:50.969 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario4 complete workflow
+----------------------------------------------------------------------
+15:24:50.972 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     _
+...[truncated 180 chars]...
+|) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario2_LoginAndAddAccount
+--------------------------------------------------------------------------------
+15:24:51.143 [pool-13-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:51.253 [pool-13-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.577</duration>
+          <startTime>-1</startTime>
+          <className>com.parasoft.parabank.serenity.tests.ScenarioBasedTest</className>
+          <testName>testScenario7_ComplexWorkflow</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <flakyFailures/>
+          <rerunFailures/>
+          <stdout>15:24:51.402 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Test scenario2 login and add account
+----------------------------------------------------------------------
+15:24:51.404 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _  
+...[truncated 181 chars]...
+ | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+testScenario7_ComplexWorkflow
+--------------------------------------------------------------------------------
+15:24:51.495 [pool-14-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+15:24:51.577 [pool-14-thread-1] WARN  com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl - Obsolete content type encountered: &apos;text/javascript&apos;.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>11.333</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>NONE</stdioRetention>
+  <keepTestNames>false</keepTestNames>
+  <keepProperties>false</keepProperties>
+</result>

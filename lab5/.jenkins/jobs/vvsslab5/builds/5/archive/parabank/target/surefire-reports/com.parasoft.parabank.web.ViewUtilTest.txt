@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.parasoft.parabank.web.ViewUtilTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.parasoft.parabank.web.ViewUtilTest

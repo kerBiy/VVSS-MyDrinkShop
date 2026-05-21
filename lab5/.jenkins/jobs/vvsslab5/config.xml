@@ -1,0 +1,127 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1571.1580.v18e46842c125">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties>
+        <string>org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty</string>
+      </jobProperties>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
+      <abortPrevious>false</abortPrevious>
+    </org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4331.v9d06ed4658ff">
+    <script>pipeline {
+    agent any
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+        timeout(time: 20, unit: &apos;MINUTES&apos;)
+    }
+
+    environment {
+        PROJECT_DIR = &apos;D:\\VVSS lab 5\\parabank&apos;
+        PARABANK_URL = &apos;http://localhost:8080/parabank/index.htm&apos;
+        MAVEN_OPTS = &apos;-Djavax.net.ssl.trustStoreType=WINDOWS-ROOT&apos;
+        CARGO_GOAL = &apos;org.codehaus.cargo:cargo-maven3-plugin:1.10.27&apos;
+        SERENITY_GOAL = &apos;net.serenity-bdd.maven.plugins:serenity-maven-plugin:3.9.0&apos;
+    }
+
+    stages {
+        stage(&apos;Environment&apos;) {
+            steps {
+                bat &apos;java -version&apos;
+                bat &apos;mvn -version&apos;
+            }
+        }
+
+        stage(&apos;Build ParaBank&apos;) {
+            steps {
+                dir(env.PROJECT_DIR) {
+                    bat &apos;mvn -DskipTests clean package&apos;
+                }
+            }
+        }
+
+        stage(&apos;Start ParaBank&apos;) {
+            steps {
+                dir(env.PROJECT_DIR) {
+                    bat &apos;&apos;&apos;
+                        @echo off
+                        set JENKINS_NODE_COOKIE=dontKillMe
+                        set BUILD_ID=dontKillMe
+                        if exist target\\parabank-cargo.log del /q target\\parabank-cargo.log
+                        start &quot;parabank&quot; /B cmd /c mvn -DskipTests &quot;%CARGO_GOAL%:run&quot; ^&gt; target\\parabank-cargo.log 2^&gt;^&amp;1
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+
+        stage(&apos;Wait For ParaBank&apos;) {
+            steps {
+                dir(env.PROJECT_DIR) {
+                    bat &apos;&apos;&apos;
+                        @echo off
+                        for /L %%i in (1,1,40) do (
+                            curl.exe --fail --silent &quot;%PARABANK_URL%&quot; | findstr /C:&quot;name=\\&quot;username\\&quot;&quot; &gt; nul
+                            if not errorlevel 1 exit /b 0
+                            echo ParaBank not ready yet, attempt %%i
+                            ping 127.0.0.1 -n 4 &gt; nul
+                        )
+
+                        type target\\parabank-cargo.log
+                        exit /b 1
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+
+        stage(&apos;Run Tests&apos;) {
+            steps {
+                dir(env.PROJECT_DIR) {
+                    bat &apos;mvn test &quot;-Dtest=LoginBlackBoxTest,ScenarioBasedTest&quot;&apos;
+                    bat &apos;mvn &quot;%SERENITY_GOAL%:aggregate&quot;&apos;
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            dir(env.PROJECT_DIR) {
+                bat returnStatus: true, script: &apos;mvn &quot;%CARGO_GOAL%:stop&quot;&apos;
+            }
+
+            powershell &apos;&apos;&apos;
+                $ports = @(8080, 8205, 9001)
+                foreach ($port in $ports) {
+                    Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue |
+                        Select-Object -ExpandProperty OwningProcess -Unique |
+                        ForEach-Object {
+                            Stop-Process -Id $_ -Force -ErrorAction SilentlyContinue
+                        }
+                }
+            &apos;&apos;&apos;
+
+            dir(env.PROJECT_DIR) {
+                junit allowEmptyResults: true, testResults: &apos;target/surefire-reports/*.xml,target/failsafe-reports/*.xml&apos;
+                archiveArtifacts allowEmptyArchive: true, artifacts: &apos;target/site/serenity/**,target/surefire-reports/**,target/failsafe-reports/**&apos;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

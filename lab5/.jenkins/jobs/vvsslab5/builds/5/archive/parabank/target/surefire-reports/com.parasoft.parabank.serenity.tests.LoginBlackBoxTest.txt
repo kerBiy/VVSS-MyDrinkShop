@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 27.93 s <<< FAILURE! -- in com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[0] -- Time elapsed: 8.665 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+
+com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[1] -- Time elapsed: 5.687 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+
+com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[2] -- Time elapsed: 5.761 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+
+com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[3] -- Time elapsed: 5.758 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: unknown
+	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+

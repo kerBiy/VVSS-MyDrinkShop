@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.4"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.25"
+"LoginBlackBoxTest","Login should match expected result from csv","SUCCESS","2026-05-19T12:41:59.7406829+03:00[Europe/Bucharest]","0.0","0.22"
+"ScenarioBasedTest","Test scenario1 login valid","SUCCESS","2026-05-19T12:42:01.3018184+03:00[Europe/Bucharest]","0.0","0.2"
+"ScenarioBasedTest","Test scenario4 complete workflow","SUCCESS","2026-05-19T12:42:04.3504982+03:00[Europe/Bucharest]","0.0","0.89"
+"ScenarioBasedTest","Test scenario2 login and add account","SUCCESS","2026-05-19T12:42:05.2454224+03:00[Europe/Bucharest]","0.0","0.49"

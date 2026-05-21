@@ -1,0 +1,109 @@
+Started by user [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KUyhPkVQMaQ3RDVZo0n7UEw1rFQnBGDrf5ACSN6l3mEAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IQCt8QBwv6aUUYbA8z4INfMVacz6+X7sFnqwu8viZdfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LR4d7NUOVAjsgLuGty2HGBHTE7qyJaJmyFDlSIuF0tXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in D:\VVSS lab 5\.jenkins\workspace\vvsslab5
+[8mha:////4O3SIC7EmMJOSzYqFZph29D67fvlGwjn7YpWkkwd8nzUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FjNZavItEfG5w9bPrRfc0T0+2aa5A2JP43Rq9Io+DrrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Ofi93gsJ5wYaQMtonhCoI/V+VQQWLecYES/OTd8VnrzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PDkf7npkItTry7UMGfcuM3ZR7uGt3EeNf5HwJCzZg2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4BoXvqKSRv2tt4vbRXaySkhTrEgKbmzD5ko1pkkrjgaRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4E9AvEBDzyJLDnz+poVCa7V/hUalCx30ylpUnOf5Z2bWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4LyJ0PItnYtv4Ol24yBZAM6p4JGZNQ4+e/1XXzIXzuNhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Environment)
+[8mha:////4PcXrniv4SvoOvbPnUTZ9WtMqUpHkY7CcBbcarDMjpr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] script
+[8mha:////4KrW1T3CjM1x38+3Eim7cX3+RXL4W8LC7W/cT+xAneinAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4IsbVT/c8glFYLDA6JZUQ1RpxfQJOQA/MGMZ0kyOJWRDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4E1lc5auqV0WjXaeDga7uoLqb5PUT1gDdVYNoMgMYwnaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] bat
+[2026-05-19T09:29:35.573Z] 
+[2026-05-19T09:29:35.573Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>java -version 
+[2026-05-19T09:29:35.573Z] java version "21.0.8" 2025-07-15 LTS
+[2026-05-19T09:29:35.573Z] Java(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)
+[2026-05-19T09:29:35.573Z] Java HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)
+[8mha:////4Kj+xTLWd9akqHE/T8G7X9o/t/SMzxMYIeUZw0Zxl6KgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/+Owku+AAAA[0m[Pipeline] bat
+[2026-05-19T09:29:35.868Z] 
+[2026-05-19T09:29:35.868Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn -version 
+[2026-05-19T09:29:36.135Z] Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+[2026-05-19T09:29:36.135Z] Maven home: C:\tools\maven
+[2026-05-19T09:29:36.135Z] Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+[2026-05-19T09:29:36.135Z] Default locale: en_US, platform encoding: UTF-8
+[2026-05-19T09:29:36.135Z] OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[8mha:////4IbhTjtJzkQYHe7GTGACIjwAuonVLSqisCxrl8uv6zO6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] }
+[8mha:////4OwMhZM6hg7QfLlxFwSbo1EUJjzGFC6DI2A4YlTxeW/yAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyqSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfl6fofL4AAAA=[0m[Pipeline] // script
+[8mha:////4NU9bP9uWu3FDJBaGWXgLm7YjsDXKQA3hb7QLgO91xusAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BtQlufq+AAAA[0m[Pipeline] }
+[8mha:////4N8xj3GIaPoupfGSbmHUQwIYG9vA2arkpNyAxMwhnJ+6AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEkRgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR9JNeShvQAAAA==[0m[Pipeline] // stage
+[8mha:////4LvYXBi88g9vvve/xPSOAb85E8rOiZ/6Y+KghWOz7c4KAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDqJAQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv7GzYasEAAAA=[0m[Pipeline] stage
+[8mha:////4LRdtNRjJn5pcQ/QnjQlGtFV86x5b0PO1jIy4h1ToLenAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Start ParaBank)
+[8mha:////4Gjv43ip/JgbSPvHRME+jwGotLbU/1qQQuEZHXrtlOIaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] script
+[8mha:////4EZE4eXGRLpiyabBY3qIy5q4LkP5Y3dbCWnLVSQ31v7xAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4GI3Og0rm18xQ8873JkyrMj+lQV+0ldnbH4OWYkq7+BDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] isUnix
+[8mha:////4PkPsqOZEv/ro7RNWKF5KlGm1RB5OhXvVfiw+JR+O2CuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] bat
+[2026-05-19T09:29:36.621Z] 
+[2026-05-19T09:29:36.621Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn -DskipTests package "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:start" 
+[2026-05-19T09:29:38.006Z] [INFO] Scanning for projects...
+[2026-05-19T09:29:38.270Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:38.270Z] [INFO] BUILD FAILURE
+[2026-05-19T09:29:38.270Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:38.270Z] [INFO] Total time:  0.083 s
+[2026-05-19T09:29:38.270Z] [INFO] Finished at: 2026-05-19T12:29:38+03:00
+[2026-05-19T09:29:38.270Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:38.270Z] [ERROR] The goal you specified requires a project to execute but there is no POM in this directory (D:\VVSS lab 5\.jenkins\workspace\vvsslab5). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[2026-05-19T09:29:38.270Z] [ERROR] 
+[2026-05-19T09:29:38.270Z] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[2026-05-19T09:29:38.270Z] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[2026-05-19T09:29:38.270Z] [ERROR] 
+[2026-05-19T09:29:38.270Z] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[2026-05-19T09:29:38.270Z] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[8mha:////4I+SP+PWClwOrgffs3r1L2T/+Jx4crzthdnyzJIT3n27AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFAXH9DvgAAAA==[0m[Pipeline] }
+[8mha:////4C4RkjUCHNVyo886a9rdpsVO5LoxbvzfJc1Oh3YycidtAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] // script
+[8mha:////4IdHNYe3PBD2FcznvD4/7e3BW91enK+AE/QyKv+cBh4vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNxxce5e+AAAA[0m[Pipeline] }
+[8mha:////4E/h+wVkP57NbTB5ONNBkMtzBlVoE3UQigHtEB41nkohAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bi+/ICu+AAAA[0m[Pipeline] // stage
+[8mha:////4NLCpjv3NFpM63VQO2NYaIxxPGxGltFVqIgk0+UhfSSPAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDRIOEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A1hnr8zBAAAA[0m[Pipeline] stage
+[8mha:////4BPqH7UNNcFa9ARTak4pmv/Fpg5+dEN+GPezklfpwPd0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Run Serenity Tests)
+Stage "Run Serenity Tests" skipped due to earlier failure(s)
+[8mha:////4JNXG8pPppcQj9mV0NQ2+UkrFBRLbmL+BcjS3UGSpN00AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] getContext
+[8mha:////4BgRWhgQcRYurcG9iFyzN0Es9Q06IthnV934h5YX4/48AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4EcVpeas68/9LhU5iDrx89nKV2rmk5TXWSc8gi/25D33AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // stage
+[8mha:////4A2BVeMvVvabVLgFoGGukVBNexgEjJc6diTRYPrfCndYAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICQkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG+v2YpzBAAAA[0m[Pipeline] stage
+[8mha:////4FuosmfncrfWPfjw1eiaxlnMpzkIIK3odyjNCaCPUK+GAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4L4WYr2uPxQi3EG9I0Oh7LZ9PEueTlaFm7/8lJiJTheqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] script
+[8mha:////4OCPxjhGkRhoRGsSmz/yR2t/k0Qs6I5eSVXLrYnHjD2GAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4Gg6ZYFCZ+fKQcuQfA907jat+aF6b8AjvhVhhqs7f0pAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] isUnix
+[8mha:////4OSjVT8D+NQQim0gE7Cg2MtHTUGO9wroOkf8xgpLr8TMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] bat
+[2026-05-19T09:29:38.906Z] 
+[2026-05-19T09:29:38.906Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop"   || exit /b 0 
+[2026-05-19T09:29:40.818Z] [INFO] Scanning for projects...
+[2026-05-19T09:29:40.818Z] [INFO] 
+[2026-05-19T09:29:40.818Z] [INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[2026-05-19T09:29:40.818Z] [INFO] Building Maven Stub Project (No POM) 1
+[2026-05-19T09:29:40.818Z] [INFO] --------------------------------[ pom ]---------------------------------
+[2026-05-19T09:29:40.818Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:40.818Z] [INFO] BUILD FAILURE
+[2026-05-19T09:29:40.818Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:40.818Z] [INFO] Total time:  0.239 s
+[2026-05-19T09:29:40.818Z] [INFO] Finished at: 2026-05-19T12:29:40+03:00
+[2026-05-19T09:29:40.818Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:29:40.818Z] [ERROR] Failed to execute goal org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop (default-cli): Goal requires a project to execute but there is no POM in this directory (D:\VVSS lab 5\.jenkins\workspace\vvsslab5). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[2026-05-19T09:29:40.818Z] [ERROR] 
+[2026-05-19T09:29:40.818Z] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[2026-05-19T09:29:40.818Z] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[2026-05-19T09:29:40.818Z] [ERROR] 
+[2026-05-19T09:29:40.818Z] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[2026-05-19T09:29:40.818Z] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[8mha:////4IjZCSouJwFy76Fanuk4rY2yh1UPFdFMTwkIiFi0U5QPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] }
+[8mha:////4GwFSbeAG0gHf2OBMDe7vqE/gmARi2vm96XVogKJlMJ7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wANN5Ipb4AAAA=[0m[Pipeline] // script
+[8mha:////4E8Iol6EjKfdsf+hhZW8ZoSiEoAz/6hAv8llYHG6fKnTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wH8yDmtvgAAAA==[0m[Pipeline] junit
+[2026-05-19T09:29:40.896Z] Recording test results
+[2026-05-19T09:29:40.900Z] No test report files were found. Configuration error?
+[2026-05-19T09:29:40.928Z] [Checks API] No suitable checks publisher found.
+[8mha:////4CHvQUZ2H3J62VwVXtFODevdkh6AwEfPxNzK/TGcJNjnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wE7XnjivgAAAA==[0m[Pipeline] archiveArtifacts
+[2026-05-19T09:29:40.960Z] Archiving artifacts
+[8mha:////4MVIbA0zGei2h8sPEuxWNMg/gdLV3e1yvlSAsECw/PDoAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8a3krPvgAAAA==[0m[Pipeline] }
+[8mha:////4B9c411BL8HHb66PGVVIK98yZQ3DPxWWpsCUb7z6dJYNAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8O/dfQvgAAAA==[0m[Pipeline] // stage
+[8mha:////4B7Mepr70sP4PQrLuTSI+N9kg6t2D4157BX1cCOnA1SzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AA0qHjm9AAAA[0m[Pipeline] }
+[8mha:////4M5XrBEUVrTZc4jSEAgaV7wJRrytgeyaFTS9mVXcEbkoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE2g8Su9AAAA[0m[Pipeline] // timestamps
+[8mha:////4NGdUX+dXbMUILHTcwimSKbIFoAp9MNHBhTHCiEmAxjaAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AGu5lmG9AAAA[0m[Pipeline] }
+[8mha:////4MT3810P/a9Xk/rQ5m2Aph548oaZ90uvfizGZYT15BhyAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiLYUDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg8FWdM+vQAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NNULzEj+JiSWVKlwc5KHBRbTtkys2YsCYD+na7lJAnUAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPI0C0dL0AAAA=[0m[Pipeline] }
+[8mha:////4C13gx70I54L9bA7r2C/KN8JIkAECEiAkIXy8dnI58XIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPUK9wrb0AAAA=[0m[Pipeline] // node
+[8mha:////4CSNtcRPTyup0wnb3djWCEdXMJS538lg84I/aPN7q2A9AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPdrYX570AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

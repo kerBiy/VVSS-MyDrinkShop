@@ -1,0 +1,354 @@
+Started by user [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KUyhPkVQMaQ3RDVZo0n7UEw1rFQnBGDrf5ACSN6l3mEAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IQCt8QBwv6aUUYbA8z4INfMVacz6+X7sFnqwu8viZdfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LR4d7NUOVAjsgLuGty2HGBHTE7qyJaJmyFDlSIuF0tXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in D:\VVSS lab 5\.jenkins\workspace\vvsslab5
+[8mha:////4O3SIC7EmMJOSzYqFZph29D67fvlGwjn7YpWkkwd8nzUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FjNZavItEfG5w9bPrRfc0T0+2aa5A2JP43Rq9Io+DrrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] ws
+Running in D:\VVSS lab 5
+[8mha:////4Ofi93gsJ5wYaQMtonhCoI/V+VQQWLecYES/OTd8VnrzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PDkf7npkItTry7UMGfcuM3ZR7uGt3EeNf5HwJCzZg2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4BoXvqKSRv2tt4vbRXaySkhTrEgKbmzD5ko1pkkrjgaRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4E9AvEBDzyJLDnz+poVCa7V/hUalCx30ylpUnOf5Z2bWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4LyJ0PItnYtv4Ol24yBZAM6p4JGZNQ4+e/1XXzIXzuNhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4PcXrniv4SvoOvbPnUTZ9WtMqUpHkY7CcBbcarDMjpr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4KrW1T3CjM1x38+3Eim7cX3+RXL4W8LC7W/cT+xAneinAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Environment)
+[8mha:////4LOED6Tliy9I05aAnZxMSMB9EkmleYA/ONNo1ad4W1V5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] dir
+[2026-05-19T09:47:33.685Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4Ov0ZIWzhw7L1W7XJpdOEWiq5VRKfLb0XhEBc52/VKDeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4P8nmOLP8WMX+D5u8VdgSBjG4gwB3rZYbjaizeFPPL7nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] script
+[8mha:////4ICetHEE8+31BDijHjjSqxf4E8KyRvYK6n7dFsE9Z6iCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4O2CrbpeZGERlPOtCD86WZNSnZdAZIVe/B1Ex8MkFD5SAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] isUnix
+[8mha:////4IdFNsTcasvyK6PiLbYJX7KPxCU2XJZY9XmIWZXx8p37AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] bat
+[2026-05-19T09:47:34.031Z] 
+[2026-05-19T09:47:34.031Z] D:\VVSS lab 5\parabank>java -version 
+[2026-05-19T09:47:34.031Z] java version "21.0.8" 2025-07-15 LTS
+[2026-05-19T09:47:34.031Z] Java(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)
+[2026-05-19T09:47:34.031Z] Java HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)
+[8mha:////4FY/B2KpIOHWA0Cg0fFFn1MrEib07RFFx8BQ/z7+ekYUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHg5TgTvgAAAA==[0m[Pipeline] bat
+[2026-05-19T09:47:34.333Z] 
+[2026-05-19T09:47:34.333Z] D:\VVSS lab 5\parabank>mvn -version 
+[2026-05-19T09:47:34.598Z] Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+[2026-05-19T09:47:34.598Z] Maven home: C:\tools\maven
+[2026-05-19T09:47:34.598Z] Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+[2026-05-19T09:47:34.598Z] Default locale: en_US, platform encoding: UTF-8
+[2026-05-19T09:47:34.598Z] OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[8mha:////4EZ7pZDMdBrGER9v6pdnzzK2yUY6SPDzBEh3l2IzYFw/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] }
+[8mha:////4AAeESTvuouOI6q4YrHnTb6eD42iLga4HBOzOOYORSJjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEOmjScvgAAAA==[0m[Pipeline] // script
+[8mha:////4NmpYgNrOlsNtAoK7/0pBM8EqHWqPGhJzcVWB8tMJPc/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPjbYp22+AAAA[0m[Pipeline] }
+[8mha:////4CgxkSrvFi1rUknflhvutIDy4JN1i946r3+r1Lzd31TfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1BzCenzi+AAAA[0m[Pipeline] // dir
+[8mha:////4C+sPFXfG9cOs2SIBwbg9zFCNG1e67ztX0BvzItmhgC2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRER2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvPx6enVK+AAAA[0m[Pipeline] }
+[8mha:////4HecYsaVN5wfl8z/gDpsMFPlGq1/goBfgL8eSmemkxQzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QEBHMgAvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KJ9btKSkjI8+CBIGmAbwTrwynGAZc68lfzO4v05uvmIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUGFhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEki13wwgAAAA==[0m[Pipeline] stage
+[8mha:////4GlYgvQibM1qwQqfv/Pe2NnIrPpDNswmRDNmfgYL4ZUHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Clean Previous ParaBank)
+[8mha:////4Bb9k8Fa5J1MVupHtsBlXWcnp7Bqrn0o0ENGYtnPhBxiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
+[2026-05-19T09:47:34.788Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4KiysbClrOJ1Vf0mftQgtKYg6pIK7Y6yznnjmamDYVpFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4NAf2+JBk71/anoHxHptZZYCXVS0k8n39uJCDVrUP/54AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] script
+[8mha:////4BPqH7UNNcFa9ARTak4pmv/Fpg5+dEN+GPezklfpwPd0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4JNXG8pPppcQj9mV0NQ2+UkrFBRLbmL+BcjS3UGSpN00AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] isUnix
+[8mha:////4NlayX6KJaSEBHhBy4S2jzT0A0PM4tjBmtpqzkzmFPDiAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f9+DRbb4AAAA=[0m[Pipeline] bat
+[2026-05-19T09:47:35.145Z] 
+[2026-05-19T09:47:35.145Z] D:\VVSS lab 5\parabank>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop"   || exit /b 0 
+[2026-05-19T09:47:36.531Z] [INFO] Scanning for projects...
+[2026-05-19T09:47:36.796Z] [INFO] 
+[2026-05-19T09:47:36.796Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T09:47:36.796Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T09:47:36.796Z] [INFO]   from pom.xml
+[2026-05-19T09:47:36.796Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T09:47:39.343Z] [INFO] 
+[2026-05-19T09:47:39.343Z] [INFO] --- cargo:1.10.27:stop (default-cli) @ parabank ---
+[2026-05-19T09:47:40.280Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T09:47:40.855Z] [INFO] Tomcat 10.1.54 is stopping...
+[2026-05-19T09:47:41.428Z] [INFO] May 19, 2026 12:47:41 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T09:47:41.428Z] [INFO] SEVERE: Could not contact [localhost:8205] (base port [8205] and offset [0]). Tomcat may not be running.
+[2026-05-19T09:47:41.428Z] [INFO] May 19, 2026 12:47:41 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T09:47:41.428Z] [INFO] SEVERE: Error stopping Catalina
+[2026-05-19T09:47:41.428Z] [INFO] java.net.ConnectException: Connection refused: connect
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:751)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:686)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:555)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:324)
+[2026-05-19T09:47:41.428Z] [INFO] 	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:654)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[2026-05-19T09:47:41.428Z] [INFO] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[2026-05-19T09:47:41.428Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:390)
+[2026-05-19T09:47:41.428Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:479)
+[2026-05-19T09:47:41.428Z] [INFO] 
+[2026-05-19T09:47:46.695Z] [INFO] Tomcat 10.1.54 is stopped
+[2026-05-19T09:47:46.958Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:47:46.958Z] [INFO] BUILD SUCCESS
+[2026-05-19T09:47:46.958Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:47:46.958Z] [INFO] Total time:  10.461 s
+[2026-05-19T09:47:46.958Z] [INFO] Finished at: 2026-05-19T12:47:46+03:00
+[2026-05-19T09:47:46.958Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4IeIDRTIjcauASNzALeIfzNgn6aoZDLp6P1jbvokyk90AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] }
+[8mha:////4BiSPjoUJIXNYxH5Lnnavc8jgkDm7GZ2N7oayEqk/wPrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN6FFjuO+AAAA[0m[Pipeline] // script
+[8mha:////4GwyaSEr85mLEXT+6JP7MHPBXxrxxSKTdXjC7u4oTmDdAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eED6r7dBb4AAAA=[0m[Pipeline] }
+[8mha:////4Lgo6anUfBvktANY3o75aHzyP2vy4xV/W8M1lsAz6gdrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwA2V2Gub4AAAA=[0m[Pipeline] // dir
+[8mha:////4OdAco+X1U00rjGEsXeiZnKfLr/sXE7NCNPLRDOK7WimAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AnfJv2L4AAAA=[0m[Pipeline] }
+[8mha:////4Azar349fe5WnXXyvxWRlrIiLeVM60fQ5L0U7nZN0+QmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DrhE0ZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4I/kp+KaKQHfe2IL5YCVfHq8M5HeuM2XtDTMWhEYIVvKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoi0SGyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5S7Jtu++TyrNwNd1EXCAAAA[0m[Pipeline] stage
+[8mha:////4KGIfleQZJZ+fiBv6cQws7Wh2Z3eN38qqgVw3291TUSZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Start ParaBank)
+[8mha:////4BVVeJLwuk1/qlw3jCbn02EZMI0hlZuahobYhmI6vE8TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] dir
+[2026-05-19T09:47:48.833Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4EZfJJ9gsOdNiKOW3Yrap0hgmglBBQDAZZvac4kzfItWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4I0G4zW63iygKGiLDZLjeTxFo3tvwGZpo/x16whv18zfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] script
+[8mha:////4BNPfG5eH4OBPOtgPLwylEEfDjoOpC5qgX2qh2eh6JpYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] {
+[8mha:////4HeQBW2J9ThKW8pgMP85iy2RBeFUWOrg/NVszkL1gepMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] isUnix
+[8mha:////4FcxLhDKCZXtHgVaP7xg8/ygnV/VcYDHtCJEga9qPUkBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] bat
+[2026-05-19T09:47:49.185Z] 
+[2026-05-19T09:47:49.185Z] D:\VVSS lab 5\parabank>mvn -DskipTests package "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:start" 
+[2026-05-19T09:47:51.097Z] [INFO] Scanning for projects...
+[2026-05-19T09:47:51.097Z] [INFO] 
+[2026-05-19T09:47:51.097Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T09:47:51.097Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T09:47:51.097Z] [INFO]   from pom.xml
+[2026-05-19T09:47:51.097Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T09:47:54.402Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T09:47:54.402Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T09:47:54.402Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T09:47:54.402Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T09:47:54.402Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T09:47:54.402Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T09:47:54.402Z] [INFO] 
+[2026-05-19T09:47:54.402Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T09:47:54.667Z] [INFO] Tests are skipped.
+[2026-05-19T09:47:54.667Z] [INFO] 
+[2026-05-19T09:47:54.667Z] [INFO] --- war:3.5.1:war (default-war) @ parabank ---
+[2026-05-19T09:47:54.929Z] [INFO] Packaging webapp
+[2026-05-19T09:47:54.929Z] [INFO] Assembling webapp [parabank] in [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT]
+[2026-05-19T09:47:55.193Z] [INFO] Processing war project
+[2026-05-19T09:47:55.193Z] [INFO] Copying webapp resources [D:\VVSS lab 5\parabank\src\main\webapp]
+[2026-05-19T09:47:55.769Z] [INFO] Building war: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war
+[2026-05-19T09:47:56.337Z] [INFO] 
+[2026-05-19T09:47:56.337Z] [INFO] --- source:3.4.0:jar-no-fork (attach-sources) @ parabank ---
+[2026-05-19T09:47:56.911Z] [INFO] Building jar: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources.jar
+[2026-05-19T09:47:56.911Z] [INFO] 
+[2026-05-19T09:47:56.911Z] [INFO] --- assembly:3.8.0:single (assemble-soavirt-source) @ parabank ---
+[2026-05-19T09:47:57.173Z] [INFO] Reading assembly descriptor: src/main/assembly/sources-jst_web.xml
+[2026-05-19T09:47:59.074Z] [INFO] Building zip: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources-jst_web.zip
+[2026-05-19T09:47:59.336Z] [INFO] 
+[2026-05-19T09:47:59.336Z] [INFO] --- cargo:1.10.27:start (default-cli) @ parabank ---
+[2026-05-19T09:47:59.910Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T09:48:00.482Z] [INFO] Tomcat 10.1.54 starting...
+[2026-05-19T09:48:00.744Z] [INFO] Deploying [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war] to [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps]...
+[2026-05-19T09:48:01.315Z] [INFO] May 19, 2026 12:48:01 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+[2026-05-19T09:48:01.315Z] [INFO] WARNING: Match [Server/Service/Connector] failed to set property [emptySessionPath] to [cargo.tomcat.connector.emptySessionPath]
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Server version name:   Apache Tomcat/10.1.54
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Server built:          Mar 30 2026 22:31:53 UTC
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Server version number: 10.1.54.0
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: OS Name:               Windows 11
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: OS Version:            10.0
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Architecture:          amd64
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Java Home:             C:\Program Files\Java\jdk-21
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: JVM Version:           21.0.8+12-LTS-250
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: JVM Vendor:            Oracle Corporation
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: CATALINA_BASE:         D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: CATALINA_HOME:         D:\VVSS lab 5\parabank\target\cargo\installs\tomcat-10.1.54\apache-tomcat-10.1.54
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Xms128m
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Xmx512m
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Dcatalina.home=D:\VVSS lab 5\parabank\target\cargo\installs\tomcat-10.1.54\apache-tomcat-10.1.54
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Dcatalina.base=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Djava.io.tmpdir=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\temp
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T09:48:01.578Z] [INFO] INFO: Command line argument: -Djava.util.logging.config.file=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\conf/logging.properties
+[2026-05-19T09:48:01.578Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+[2026-05-19T09:48:01.578Z] [INFO] INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Eclipse Adoptium\jre-17.0.8.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2023.2.3\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2026.1.0\;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2023.2.3\bin;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\maven\bin;.]
+[2026-05-19T09:48:01.841Z] [INFO] May 19, 2026 12:48:01 PM org.apache.coyote.AbstractProtocol init
+[2026-05-19T09:48:01.841Z] [INFO] INFO: Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-19T09:48:01.841Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.Catalina load
+[2026-05-19T09:48:01.841Z] [INFO] INFO: Server initialization in [643] milliseconds
+[2026-05-19T09:48:01.841Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.core.StandardService startInternal
+[2026-05-19T09:48:01.841Z] [INFO] INFO: Starting service [Catalina]
+[2026-05-19T09:48:01.841Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.core.StandardEngine startInternal
+[2026-05-19T09:48:01.841Z] [INFO] INFO: Starting Servlet engine: [Apache Tomcat/10.1.54]
+[2026-05-19T09:48:02.107Z] [INFO] May 19, 2026 12:48:01 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T09:48:02.107Z] [INFO] INFO: Deploying web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\cargocpc.war]
+[2026-05-19T09:48:02.367Z] [INFO] May 19, 2026 12:48:02 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T09:48:02.367Z] [INFO] INFO: Deployment of web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\cargocpc.war] has finished in [444] ms
+[2026-05-19T09:48:02.367Z] [INFO] May 19, 2026 12:48:02 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T09:48:02.367Z] [INFO] INFO: Deploying web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank.war]
+[2026-05-19T09:48:17.246Z] [INFO] May 19, 2026 12:48:16 PM org.apache.jasper.servlet.TldScanner scanJars
+[2026-05-19T09:48:17.246Z] [INFO] INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2026-05-19T09:48:17.246Z] [INFO] May 19, 2026 12:48:16 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T09:48:17.246Z] [INFO] INFO: No Spring WebApplicationInitializer types detected on classpath
+[2026-05-19T09:48:17.246Z] [INFO] May 19, 2026 12:48:16 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T09:48:17.246Z] [INFO] INFO: Initializing Spring root WebApplicationContext
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: [Thread[#1,main,5,main]]: setRestartOnShutdown(false)
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: [Thread[#1,main,5,main]]: setNoSystemExit(true)
+[2026-05-19T09:48:21.443Z] [INFO] 12:48:20.612 [main] INFO  com.parasoft.parabank.util.ServerBean - HSQL Server Startup sequence initiated
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: Initiating startup sequence...
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: Server socket opened successfully in 1 ms.
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: Database [index=0, id=0, db=file:D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank/WEB-INF/db/db2, alias=bookstore] opened successfully in 440 ms.
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: Database [index=1, id=1, db=file:D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank/WEB-INF/db/db, alias=parabank] opened successfully in 54 ms.
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: Startup sequence completed in 506 ms.
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: 2026-05-19 09:48:21.137 HSQLDB server 2.7.4 is online on port 9001
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: To close normally, connect and execute SHUTDOWN SQL
+[2026-05-19T09:48:21.443Z] [INFO] [Server@1b9e5334]: From command line, use [Ctrl]+[C] to abort abruptly
+[2026-05-19T09:48:21.443Z] [INFO] 12:48:21.181 [main] INFO  com.parasoft.parabank.util.ServerBean - HSQL Server listening on port 9001
+[2026-05-19T09:48:24.724Z] [INFO] May 19, 2026 12:48:24 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T09:48:24.724Z] [INFO] INFO: Initializing Spring DispatcherServlet 'parabank'
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Deployment of web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank.war] has finished in [23,138] ms
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Deploying web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\host-manager]
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Deployment of web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\host-manager] has finished in [72] ms
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Deploying web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\manager]
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Deployment of web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\manager] has finished in [43] ms
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.coyote.AbstractProtocol start
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-19T09:48:25.663Z] [INFO] May 19, 2026 12:48:25 PM org.apache.catalina.startup.Catalina start
+[2026-05-19T09:48:25.663Z] [INFO] INFO: Server startup in [23916] milliseconds
+[2026-05-19T09:48:25.925Z] [INFO] Tomcat 10.1.54 started on port [8080]
+[2026-05-19T09:48:28.469Z] [INFO] 12:48:28.139 [http-nio-8080-exec-4] WARN  com.parasoft.parabank.web.controller.IndexController - Database not yet initialized. Initializing...
+[2026-05-19T09:48:28.469Z] [INFO] 12:48:28.150 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Initializing parabank database...
+[2026-05-19T09:48:28.469Z] [INFO] 12:48:28.171 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Populating parabank database...
+[2026-05-19T09:48:28.469Z] [INFO] 12:48:28.214 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Running Dynamic Data inserters...
+[2026-05-19T09:48:28.729Z] [INFO] 12:48:28.670 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Database initialized & populated
+[2026-05-19T09:48:28.729Z] [INFO] 12:48:28.671 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Initializing database...
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.924 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Database initialized
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.944 [http-nio-8080-exec-7] INFO  com.parasoft.parabank.dao.jdbc.JdbcNewsDao - Retrieved 3 news items for date = 2026-05-19
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.947 [http-nio-8080-exec-7] INFO  com.parasoft.parabank.domain.util.NewsUtil - Creating new list for news date: 2026-05-19
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.947 [http-nio-8080-exec-7] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 6
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.947 [http-nio-8080-exec-7] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 5
+[2026-05-19T09:48:28.989Z] [INFO] 12:48:28.947 [http-nio-8080-exec-7] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 4
+[2026-05-19T09:48:30.898Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:48:30.898Z] [INFO] BUILD SUCCESS
+[2026-05-19T09:48:30.898Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T09:48:30.898Z] [INFO] Total time:  39.841 s
+[2026-05-19T09:48:30.898Z] [INFO] Finished at: 2026-05-19T12:48:30+03:00
+[2026-05-19T09:48:30.898Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4FDR7X/LrLWAKDBsKNJvBagVPf0cElmAtuzrNSnQiUJ8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG5CpylvgAAAA==[0m[Pipeline] }
+[8mha:////4MckfwIVvzCYNVHLhxMb1RrpCr+fWhcFfgM3di/C2GfjAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHEcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfiunHGb4AAAA=[0m[Pipeline] // script
+[8mha:////4OTb4EeQDr1rskZd4NadBoJOBKGNxLO6/H6dCNQaE3xDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wFVJtsGvgAAAA==[0m[Pipeline] }
+[8mha:////4IeySqmfqp47jF2K7JV3KGtgkWifVgSXYfPe1a9Xh02rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wFmxYC6vgAAAA==[0m[Pipeline] // dir
+[8mha:////4FyGzwg1frSOHnyPNxa3kIkuUbN5mWk0Snihm89QXq2xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wFy5h2lvgAAAA==[0m[Pipeline] }
+[8mha:////4OfpEdP9iLm6hWTCtDjPBREyyG7Y+4g7jTEKugcUrCxPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wFBBUYZvgAAAA==[0m[Pipeline] // stage
+[8mha:////4O0fBNhiLieKAkVFbYc8DZRjnp5e8vYlmmXzo9V8jHGXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2z73edZvQGhFDJ4wgAAAA==[0m[Pipeline] stage
+[8mha:////4G0Kfvs4yIWGIw08MdAvYd1qxucXdWG8QbT6zBvA4N2IAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Warm Up ParaBank)
+[8mha:////4DyHLwcqvdswRZwHsjxeBIS9em9mL6HYBYVzXdx86vYWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] script
+[8mha:////4A041kll07WSYldyLM1n2Y5s/AzAFQkVjQ7A3uBQ4njpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4LNlYYGA0/NdVQnejD7HZKn4is3BnwaCqDjKMBTq64N5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] isUnix
+[8mha:////4B8Ty/EeXjIOrOpj2tZTySLZTPAWxiSxkljKxg6eXdhHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] powershell
+[2026-05-19T10:09:01.912Z] Sending interrupt signal to process
+Aborted by [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[2026-05-19T10:09:05.532Z] Sending interrupt signal to process
+Aborted by [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4JtFlHc9JHe2liFYYesJMNHpdG8UbOqi+1PpppNSK4kyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGQyUUpvgAAAA==[0m[Pipeline] }
+[8mha:////4BUFN4ViLhI9qxYkq138WyKNMQFYbP8IGEd1H5x4ORZXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCtIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGjKh6VvgAAAA==[0m[Pipeline] // script
+[8mha:////4NNp83jYoYFCKdZX7bUGsP6F32rwyrAAa9Yb77kyeNtOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkEKDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w+3CYOKvgAAAA==[0m[Pipeline] }
+[8mha:////4DzznBeXkSxNVccEUYNw5iD3M/tcWrLkwKrVdV94BGDbAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw+E6tg2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4HSziUOWND8xwOaVEQb1ErMXzXywTTYRxz8XuFdbtab3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WTb7z7P6g08DtpJwgAAAA==[0m[Pipeline] stage
+[8mha:////4BjcBt7rAst+x1u2Nuy5wQYiiXhZKpenGmJfqryyfbVWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] { (Run Serenity Tests)
+Stage "Run Serenity Tests" skipped due to earlier failure(s)
+[8mha:////4Oq4MwACNrO1vIcMUb8jhiQevo4zvXi0MZ6QJX4+VUkiAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] getContext
+[8mha:////4DzH6f7Q9MEjHBbVwoiGwp50YGMcG5JLTwY1nWVv17jOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BsfLY/G+AAAA[0m[Pipeline] }
+[8mha:////4CsqPYdUVggujuw/XRlT0k3uTa20hUCxwa64wIqIEhOZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGESTJ3vgAAAA==[0m[Pipeline] // stage
+[8mha:////4J+jMKz/Kov/QqM9fa8vzycsMoZnAtB8K1/h1fDiWhBUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFiSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WTb7T/P6g3iHUT1wgAAAA==[0m[Pipeline] stage
+[8mha:////4NIUea2RJ+M+iSR0reB+9jBdOgVatpDM9AP3//EwJh8CAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4N5BMHO7p4smd1hRiVgdaJvVdTJA7LfaatRWYQoB1WHDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] dir
+[2026-05-19T10:09:08.636Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4BKuAd3XjbiFkRbtRoMXvWZXMRevrXLXV90d3MDttGEpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] {
+[8mha:////4FAHT92eArPXn5wDeUfqt1z7XHkACPfpMZpnFrI0nn7DAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] script
+[8mha:////4AN/91LngPtzWLLIfSgeSGrqy86YiR4Cm31rGsf4luhnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABpxnKZwgAAAA==[0m[Pipeline] {
+[8mha:////4PGIzKAmmWwUviFV7yw56GIlKjA998ZXjKkIPOki5xZPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/DO8Oq+AAAA[0m[Pipeline] isUnix
+[8mha:////4ATeyb6p6KWBkhza0Fbi3Z/Tmjd5ix9K4Q+rcATDb1JMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzOd3cG+AAAA[0m[Pipeline] bat
+[2026-05-19T10:09:09.014Z] 
+[2026-05-19T10:09:09.014Z] D:\VVSS lab 5\parabank>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop"   || exit /b 0 
+[2026-05-19T10:09:10.926Z] [INFO] Scanning for projects...
+[2026-05-19T10:09:10.926Z] [INFO] 
+[2026-05-19T10:09:10.926Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T10:09:10.926Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T10:09:10.926Z] [INFO]   from pom.xml
+[2026-05-19T10:09:10.926Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T10:09:14.225Z] [INFO] 
+[2026-05-19T10:09:14.225Z] [INFO] --- cargo:1.10.27:stop (default-cli) @ parabank ---
+[2026-05-19T10:09:14.489Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T10:09:15.431Z] [INFO] Tomcat 10.1.54 is stopping...
+[2026-05-19T10:09:15.697Z] [INFO] May 19, 2026 1:09:15 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T10:09:15.697Z] [INFO] SEVERE: Could not contact [localhost:8205] (base port [8205] and offset [0]). Tomcat may not be running.
+[2026-05-19T10:09:15.697Z] [INFO] May 19, 2026 1:09:15 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T10:09:15.697Z] [INFO] SEVERE: Error stopping Catalina
+[2026-05-19T10:09:15.697Z] [INFO] java.net.ConnectException: Connection refused: connect
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:751)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:686)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:555)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:324)
+[2026-05-19T10:09:15.697Z] [INFO] 	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:654)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[2026-05-19T10:09:15.697Z] [INFO] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[2026-05-19T10:09:15.697Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:390)
+[2026-05-19T10:09:15.697Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:479)
+[2026-05-19T10:09:15.697Z] [INFO] 
+[8mha:////4AphzzUjsnZe+2rdRYT8a21ianVf49uq8uuKBeNwRjNTAAAA4x+LCAAAAAAAAP9djDFOAzEQRWc3ghohKkRHP65ICpQKCpAiQAoX2ATjeNeMzcx4ExoOwTWSBokrcAguQEdNQcNGW8Fv/mve23zBjjCcR3ZYW2o8ydxjCtl1hMvIzX2IS5ScUmRFUZsEPaWseHM9vb14SpaDp+Yqqt37GLx9j34+SygmMMgcFPYnddVWJlTkzFTZkztdMRwt8p1EwnkkicHin8pwvH4dv6T3EspL2A2WnC763CM8Q9Hph//0s/63MvQrSoBV6gAVimOFA1PHmWlbkVDNTszIqOWHX8OBawj7AAAA[0mClick here to forcibly terminate running steps
+[8mha:////4AphzzUjsnZe+2rdRYT8a21ianVf49uq8uuKBeNwRjNTAAAA4x+LCAAAAAAAAP9djDFOAzEQRWc3ghohKkRHP65ICpQKCpAiQAoX2ATjeNeMzcx4ExoOwTWSBokrcAguQEdNQcNGW8Fv/mve23zBjjCcR3ZYW2o8ydxjCtl1hMvIzX2IS5ScUmRFUZsEPaWseHM9vb14SpaDp+Yqqt37GLx9j34+SygmMMgcFPYnddVWJlTkzFTZkztdMRwt8p1EwnkkicHin8pwvH4dv6T3EspL2A2WnC763CM8Q9Hph//0s/63MvQrSoBV6gAVimOFA1PHmWlbkVDNTszIqOWHX8OBawj7AAAA[0mClick here to forcibly terminate running steps
+[2026-05-19T10:09:20.996Z] [INFO] Tomcat 10.1.54 is stopped
+[2026-05-19T10:09:21.569Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T10:09:21.569Z] [INFO] BUILD SUCCESS
+[2026-05-19T10:09:21.569Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T10:09:21.569Z] [INFO] Total time:  10.800 s
+[2026-05-19T10:09:21.569Z] [INFO] Finished at: 2026-05-19T13:09:21+03:00
+[2026-05-19T10:09:21.569Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4BosJAS9XEU5tXLOv/SlyX69JpFR6CNnvIz7CeJ2w/s8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIKVAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N6TBCDm+AAAA[0m[Pipeline] }
+[8mha:////4KbeYtkSGwErYd6jABLuelAeazRlDI96pQRiBwevzXODAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHS5jpWvgAAAA==[0m[Pipeline] // script
+[8mha:////4LDjaQw431ihxXQ1+YXJt1DFs4bRq4t0zleGIRAjO8XbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHhBWHqvgAAAA==[0m[Pipeline] }
+[8mha:////4O+zVItBLb0WJw+sXGTkRMv1pjPcdeFBSn7FCqpUSca6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wF6dS+ivgAAAA==[0m[Pipeline] // dir
+[8mha:////4I2A85xwxUasIY/sGU7IwPlRY8aBUX8twvkE5DyOLZ6BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKPfbXIfd8AHaaI9xvgAAAA==[0m[Pipeline] junit
+[2026-05-19T10:09:21.679Z] Recording test results
+[2026-05-19T10:09:21.769Z] [Checks API] No suitable checks publisher found.
+[8mha:////4FDNBuphX+5EYwhoeuhoqOqEOSVMNvTb49PO4pbZcCxsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrnf5jrshg8ZO6JavgAAAA==[0m[Pipeline] archiveArtifacts
+[2026-05-19T10:09:21.791Z] Archiving artifacts
+[8mha:////4BSyTOFPd17VP+kvW+gfVs1f4ICsJHGortExtRdCDJQPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRAESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AQje8U74AAAA=[0m[Pipeline] }
+[8mha:////4L16iFqww6twX042AP6E1Z9rIcx6kqvWUZVWYwArCr8vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIARCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8fjn4uvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IxdBitZh1RadcWNGuIMiEr4dccgouiDQ04cKqjoomSmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+1234A2XO/074AAAA=[0m[Pipeline] }
+[8mha:////4NIvhKewJq1oJ7DijqLVayRShGIT3KjOXzGKePXmOXa1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpEAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BUPO7BL0AAAA=[0m[Pipeline] // timestamps
+[8mha:////4I7k2+a3Mw3f6jpq8whswtXScKTxS7jv/QUn9nYs6h6NAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KMkhgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR926txOvQAAAA==[0m[Pipeline] }
+[8mha:////4HU24qBZPwukVxvq17vEVNcNShZCO8tsdvZc9LsPQsO0AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KMkhgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h82YDNcvQAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NpzAjINtjaPIQqb2Kqkd0GRKjW33w6T2ge6VQwfT7hMAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpEAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q7/aCbPsBEHlUFr0AAAA=[0m[Pipeline] }
+[8mha:////4MpgeD3ddi2Gs/97hD9+zGSYgBuW+SJbvT3Axsv7t3AmAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhoUCIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPfpkRSb0AAAA=[0m[Pipeline] // ws
+[8mha:////4BHodM21OIViqUqKqkshW+1gK9O3TnuY6DRH1iSf+I/uAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AFiAdgO9AAAA[0m[Pipeline] }
+[8mha:////4AQDFYzftsH5CiUy8MAnQdSNTD3HVILF34BS3cm+qd/oAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPK2+y2r0AAAA=[0m[Pipeline] // node
+[8mha:////4GG4fN72IzUp+oPQiHWTp8SHcAgg+ZnPcTOhxy7ioayoAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPDXbVkL0AAAA=[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 2dee2433-a0cc-43fb-926a-92668f96f65d
+Finished: ABORTED

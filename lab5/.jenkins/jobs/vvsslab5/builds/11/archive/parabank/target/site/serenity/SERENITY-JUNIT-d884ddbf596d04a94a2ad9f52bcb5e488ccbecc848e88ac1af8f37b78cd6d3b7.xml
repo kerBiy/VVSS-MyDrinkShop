@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="com.parasoft.parabank.serenity.tests.LoginBlackBoxTest" skipped="0" tests="4" time="3.31" timestamp="2026-05-19 12:41:59"><testcase classname="com.parasoft.parabank.serenity.tests.LoginBlackBoxTest" name="Login should match expected result from csv"/></testsuite>

@@ -1,0 +1,785 @@
+Started by user [8mha:////4OZHFpm33MNE9t4zTqegrdaaRqTjXITo9WqLiorFwUcsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KUyhPkVQMaQ3RDVZo0n7UEw1rFQnBGDrf5ACSN6l3mEAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IQCt8QBwv6aUUYbA8z4INfMVacz6+X7sFnqwu8viZdfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LR4d7NUOVAjsgLuGty2HGBHTE7qyJaJmyFDlSIuF0tXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in D:\VVSS lab 5\.jenkins\workspace\vvsslab5
+[8mha:////4O3SIC7EmMJOSzYqFZph29D67fvlGwjn7YpWkkwd8nzUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FjNZavItEfG5w9bPrRfc0T0+2aa5A2JP43Rq9Io+DrrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Ofi93gsJ5wYaQMtonhCoI/V+VQQWLecYES/OTd8VnrzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PDkf7npkItTry7UMGfcuM3ZR7uGt3EeNf5HwJCzZg2kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4BoXvqKSRv2tt4vbRXaySkhTrEgKbmzD5ko1pkkrjgaRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4E9AvEBDzyJLDnz+poVCa7V/hUalCx30ylpUnOf5Z2bWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] timeout
+[2026-05-19T11:31:23.179Z] Timeout set to expire in 20 min
+[8mha:////4LyJ0PItnYtv4Ol24yBZAM6p4JGZNQ4+e/1XXzIXzuNhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4PcXrniv4SvoOvbPnUTZ9WtMqUpHkY7CcBbcarDMjpr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4KrW1T3CjM1x38+3Eim7cX3+RXL4W8LC7W/cT+xAneinAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Environment)
+[8mha:////4IsbVT/c8glFYLDA6JZUQ1RpxfQJOQA/MGMZ0kyOJWRDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] bat
+[2026-05-19T11:31:23.529Z] 
+[2026-05-19T11:31:23.529Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>java -version 
+[2026-05-19T11:31:23.529Z] java version "21.0.8" 2025-07-15 LTS
+[2026-05-19T11:31:23.529Z] Java(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)
+[2026-05-19T11:31:23.529Z] Java HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)
+[8mha:////4E1lc5auqV0WjXaeDga7uoLqb5PUT1gDdVYNoMgMYwnaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] bat
+[2026-05-19T11:31:23.819Z] 
+[2026-05-19T11:31:23.819Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>mvn -version 
+[2026-05-19T11:31:24.080Z] Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+[2026-05-19T11:31:24.080Z] Maven home: C:\tools\maven
+[2026-05-19T11:31:24.080Z] Java version: 21.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+[2026-05-19T11:31:24.080Z] Default locale: en_US, platform encoding: UTF-8
+[2026-05-19T11:31:24.080Z] OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[8mha:////4ElfHEZhAw7AEFGe7FBryAnPr+OtM5qFqIuKk1JFF/vIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4EOWQqvfDdSX3a0qaFvqLOGJv1uTsxV2oYA/Nxs7MiF4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4MQH8OOtpnQ84efh6JMH49okMLAqGmrtFq8cOYhg+gKZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxARxC6QrCAAAA[0m[Pipeline] stage
+[8mha:////4NvW4Bj7prqeHlkqh69rjV+blQSOg5vKwwMRvzdO8AwwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Start ParaBank)
+[8mha:////4BjyZLjjZdozus5ogA5/jP6yjmp17nnAj+0Cl5ZsVC2jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] dir
+[2026-05-19T11:31:24.182Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4Pqmc3IVmtKg6eampezohr86axxybf7S4qx0OdARYxL8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4HPDoBiqrVdITUNykM7S8aDJKup/blAJG7YT7Yx+T8d0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] bat
+[2026-05-19T11:31:24.483Z] 
+[2026-05-19T11:31:24.483Z] D:\VVSS lab 5\parabank>mvn -DskipTests package "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:start" 
+[2026-05-19T11:31:25.859Z] [INFO] Scanning for projects...
+[2026-05-19T11:31:26.123Z] [INFO] 
+[2026-05-19T11:31:26.123Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T11:31:26.123Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T11:31:26.123Z] [INFO]   from pom.xml
+[2026-05-19T11:31:26.123Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T11:31:29.428Z] [INFO] 
+[2026-05-19T11:31:29.428Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T11:31:29.428Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T11:31:29.428Z] [INFO] 
+[2026-05-19T11:31:29.428Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T11:31:29.428Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T11:31:29.428Z] [INFO] 
+[2026-05-19T11:31:29.428Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T11:31:29.693Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T11:31:29.693Z] [INFO] 
+[2026-05-19T11:31:29.693Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T11:31:29.693Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T11:31:29.693Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T11:31:29.693Z] [INFO] 
+[2026-05-19T11:31:29.693Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T11:31:29.693Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T11:31:29.693Z] [INFO] 
+[2026-05-19T11:31:29.693Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T11:31:29.960Z] [INFO] Tests are skipped.
+[2026-05-19T11:31:29.960Z] [INFO] 
+[2026-05-19T11:31:29.960Z] [INFO] --- war:3.5.1:war (default-war) @ parabank ---
+[2026-05-19T11:31:30.219Z] [INFO] Packaging webapp
+[2026-05-19T11:31:30.219Z] [INFO] Assembling webapp [parabank] in [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT]
+[2026-05-19T11:31:30.219Z] [INFO] Processing war project
+[2026-05-19T11:31:30.219Z] [INFO] Copying webapp resources [D:\VVSS lab 5\parabank\src\main\webapp]
+[2026-05-19T11:31:31.164Z] [INFO] Building war: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war
+[2026-05-19T11:31:31.732Z] [INFO] 
+[2026-05-19T11:31:31.732Z] [INFO] --- source:3.4.0:jar-no-fork (attach-sources) @ parabank ---
+[2026-05-19T11:31:32.305Z] [INFO] Building jar: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources.jar
+[2026-05-19T11:31:32.305Z] [INFO] 
+[2026-05-19T11:31:32.305Z] [INFO] --- assembly:3.8.0:single (assemble-soavirt-source) @ parabank ---
+[2026-05-19T11:31:32.568Z] [INFO] Reading assembly descriptor: src/main/assembly/sources-jst_web.xml
+[2026-05-19T11:31:34.475Z] [INFO] Building zip: D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT-sources-jst_web.zip
+[2026-05-19T11:31:35.041Z] [INFO] 
+[2026-05-19T11:31:35.041Z] [INFO] --- cargo:1.10.27:start (default-cli) @ parabank ---
+[2026-05-19T11:31:35.605Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T11:31:36.550Z] [INFO] Tomcat 10.1.54 starting...
+[2026-05-19T11:31:36.550Z] [INFO] Deploying [D:\VVSS lab 5\parabank\target\parabank-5.0.0-SNAPSHOT.war] to [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps]...
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+[2026-05-19T11:31:37.495Z] [INFO] WARNING: Match [Server/Service/Connector] failed to set property [emptySessionPath] to [cargo.tomcat.connector.emptySessionPath]
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Server version name:   Apache Tomcat/10.1.54
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Server built:          Mar 30 2026 22:31:53 UTC
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Server version number: 10.1.54.0
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: OS Name:               Windows 11
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: OS Version:            10.0
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Architecture:          amd64
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Java Home:             C:\Program Files\Java\jdk-21
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: JVM Version:           21.0.8+12-LTS-250
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: JVM Vendor:            Oracle Corporation
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: CATALINA_BASE:         D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: CATALINA_HOME:         D:\VVSS lab 5\parabank\target\cargo\installs\tomcat-10.1.54\apache-tomcat-10.1.54
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Xms128m
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Xmx512m
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Dcatalina.home=D:\VVSS lab 5\parabank\target\cargo\installs\tomcat-10.1.54\apache-tomcat-10.1.54
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Dcatalina.base=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Djava.io.tmpdir=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\temp
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.VersionLoggerListener log
+[2026-05-19T11:31:37.495Z] [INFO] INFO: Command line argument: -Djava.util.logging.config.file=D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\conf/logging.properties
+[2026-05-19T11:31:37.495Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+[2026-05-19T11:31:37.495Z] [INFO] INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Eclipse Adoptium\jre-17.0.8.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2023.2.3\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2026.1.0\;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Programs\Python\Launcher\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2023.2.3\bin;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\maven\bin;.]
+[2026-05-19T11:31:37.759Z] [INFO] May 19, 2026 2:31:37 PM org.apache.coyote.AbstractProtocol init
+[2026-05-19T11:31:37.759Z] [INFO] INFO: Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-19T11:31:37.759Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.Catalina load
+[2026-05-19T11:31:37.759Z] [INFO] INFO: Server initialization in [657] milliseconds
+[2026-05-19T11:31:38.024Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.core.StandardService startInternal
+[2026-05-19T11:31:38.024Z] [INFO] INFO: Starting service [Catalina]
+[2026-05-19T11:31:38.024Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.core.StandardEngine startInternal
+[2026-05-19T11:31:38.024Z] [INFO] INFO: Starting Servlet engine: [Apache Tomcat/10.1.54]
+[2026-05-19T11:31:38.024Z] [INFO] May 19, 2026 2:31:37 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T11:31:38.024Z] [INFO] INFO: Deploying web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\cargocpc.war]
+[2026-05-19T11:31:38.289Z] [INFO] May 19, 2026 2:31:38 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T11:31:38.289Z] [INFO] INFO: Deployment of web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\cargocpc.war] has finished in [393] ms
+[2026-05-19T11:31:38.289Z] [INFO] May 19, 2026 2:31:38 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T11:31:38.289Z] [INFO] INFO: Deploying web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank.war]
+[2026-05-19T11:31:53.174Z] [INFO] May 19, 2026 2:31:51 PM org.apache.jasper.servlet.TldScanner scanJars
+[2026-05-19T11:31:53.174Z] [INFO] INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2026-05-19T11:31:53.174Z] [INFO] May 19, 2026 2:31:51 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T11:31:53.174Z] [INFO] INFO: No Spring WebApplicationInitializer types detected on classpath
+[2026-05-19T11:31:53.174Z] [INFO] May 19, 2026 2:31:51 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T11:31:53.174Z] [INFO] INFO: Initializing Spring root WebApplicationContext
+[2026-05-19T11:31:56.461Z] [INFO] [Server@1b9e5334]: [Thread[#1,main,5,main]]: setRestartOnShutdown(false)
+[2026-05-19T11:31:56.462Z] [INFO] [Server@1b9e5334]: [Thread[#1,main,5,main]]: setNoSystemExit(true)
+[2026-05-19T11:31:56.725Z] [INFO] 14:31:56.472 [main] INFO  com.parasoft.parabank.util.ServerBean - HSQL Server Startup sequence initiated
+[2026-05-19T11:31:56.725Z] [INFO] [Server@1b9e5334]: Initiating startup sequence...
+[2026-05-19T11:31:56.725Z] [INFO] [Server@1b9e5334]: Server socket opened successfully in 2 ms.
+[2026-05-19T11:31:56.989Z] [INFO] [Server@1b9e5334]: Database [index=0, id=0, db=file:D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank/WEB-INF/db/db2, alias=bookstore] opened successfully in 437 ms.
+[2026-05-19T11:31:57.241Z] [INFO] [Server@1b9e5334]: Database [index=1, id=1, db=file:D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank/WEB-INF/db/db, alias=parabank] opened successfully in 51 ms.
+[2026-05-19T11:31:57.241Z] [INFO] [Server@1b9e5334]: Startup sequence completed in 501 ms.
+[2026-05-19T11:31:57.241Z] [INFO] [Server@1b9e5334]: 2026-05-19 11:31:56.989 HSQLDB server 2.7.4 is online on port 9001
+[2026-05-19T11:31:57.241Z] [INFO] [Server@1b9e5334]: To close normally, connect and execute SHUTDOWN SQL
+[2026-05-19T11:31:57.241Z] [INFO] [Server@1b9e5334]: From command line, use [Ctrl]+[C] to abort abruptly
+[2026-05-19T11:31:57.241Z] [INFO] 14:31:57.037 [main] INFO  com.parasoft.parabank.util.ServerBean - HSQL Server listening on port 9001
+[2026-05-19T11:32:00.551Z] [INFO] May 19, 2026 2:31:59 PM org.apache.catalina.core.ApplicationContext log
+[2026-05-19T11:32:00.551Z] [INFO] INFO: Initializing Spring DispatcherServlet 'parabank'
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.HostConfig deployWAR
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Deployment of web application archive [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\parabank.war] has finished in [22,997] ms
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Deploying web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\host-manager]
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Deployment of web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\host-manager] has finished in [69] ms
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Deploying web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\manager]
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Deployment of web application directory [D:\VVSS lab 5\parabank\target\cargo\configurations\tomcat10x\webapps\manager] has finished in [45] ms
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.coyote.AbstractProtocol start
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-19T11:32:01.487Z] [INFO] May 19, 2026 2:32:01 PM org.apache.catalina.startup.Catalina start
+[2026-05-19T11:32:01.487Z] [INFO] INFO: Server startup in [23722] milliseconds
+[2026-05-19T11:32:01.749Z] [INFO] Tomcat 10.1.54 started on port [8080]
+[2026-05-19T11:32:04.289Z] [INFO] 14:32:03.878 [http-nio-8080-exec-4] WARN  com.parasoft.parabank.web.controller.IndexController - Database not yet initialized. Initializing...
+[2026-05-19T11:32:04.289Z] [INFO] 14:32:03.888 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Initializing parabank database...
+[2026-05-19T11:32:04.289Z] [INFO] 14:32:03.905 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Populating parabank database...
+[2026-05-19T11:32:04.289Z] [INFO] 14:32:03.947 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Running Dynamic Data inserters...
+[2026-05-19T11:32:04.553Z] [INFO] 14:32:04.411 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Database initialized & populated
+[2026-05-19T11:32:04.553Z] [INFO] 14:32:04.411 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Initializing database...
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.658 [http-nio-8080-exec-5] INFO  com.parasoft.parabank.dao.jdbc.JdbcAdminDao - Database initialized
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.678 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.dao.jdbc.JdbcNewsDao - Retrieved 3 news items for date = 2026-05-19
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.682 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.domain.util.NewsUtil - Creating new list for news date: 2026-05-19
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.682 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 6
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.682 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 5
+[2026-05-19T11:32:04.816Z] [INFO] 14:32:04.682 [http-nio-8080-exec-6] INFO  com.parasoft.parabank.domain.util.NewsUtil - Adding news item with id = 4
+[2026-05-19T11:32:06.735Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:32:06.735Z] [INFO] BUILD SUCCESS
+[2026-05-19T11:32:06.735Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:32:06.735Z] [INFO] Total time:  40.526 s
+[2026-05-19T11:32:06.735Z] [INFO] Finished at: 2026-05-19T14:32:06+03:00
+[2026-05-19T11:32:06.735Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4LSbEs9k/ahCHWFPXJFVo/K8famveauJHmTWjFL/AcQoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4JjP9pgzwpBbIQtp5UqtoIy3zrTmtTj3dE67hs4lyYbUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // dir
+[8mha:////4ERPAi7PzW5PfmRCC7Pko/HtCPv5zyjqznDuqRpgj4GiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] }
+[8mha:////4L0XicWDQP4hRSfT0Ldtdp92+m7dsZpcdlB6jL4i0AnVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] // stage
+[8mha:////4KJ9btKSkjI8+CBIGmAbwTrwynGAZc68lfzO4v05uvmIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUGFhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEki13wwgAAAA==[0m[Pipeline] stage
+[8mha:////4GlYgvQibM1qwQqfv/Pe2NnIrPpDNswmRDNmfgYL4ZUHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Wait For ParaBank)
+[8mha:////4LN40lVjj7IAvqseBvajN3Trgllvha1ONFjpgWTOnFnJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] bat
+[2026-05-19T11:32:07.154Z] 
+[2026-05-19T11:32:07.154Z] D:\VVSS lab 5\.jenkins\workspace\vvsslab5>powershell -NoProfile -Command "Start-Sleep -Seconds 10" 
+[8mha:////4KFswXLCCWuMUZHXt/1nSYPt94X3FU/1u34QTD1vnPFhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4HNbJ8IKuD0CGDo+OWswAtTeUCPLnqNdjx8L0hi/nVCtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EmUDJYV87Yv0Z6B3GWV4fjVw4rfA9/8jq7h5mCwS1sfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUihExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgrLZZds3n2f1BiiwL0vCAAAA[0m[Pipeline] stage
+[8mha:////4HglskbaO1a5w2nJZpmCY+GgqkhVNnqZH+NA+WIWTh8UAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Run Tests)
+[8mha:////4A5+wsdzfuVjD+kCB4vHpA9IUblnZ+82B46WMPiVc+r7AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] dir
+[2026-05-19T11:32:19.433Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4JYCGtgTDPDN9Zh51Gem3q4bhKQe3BvmWgDeObBbSI2/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4DklOXO4RWgk77vPHf+UpBn65H6FtMKw3i5Qbn0iiMwtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] bat
+[2026-05-19T11:32:19.739Z] 
+[2026-05-19T11:32:19.739Z] D:\VVSS lab 5\parabank>mvn test "-Dtest=LoginBlackBoxTest,ScenarioBasedTest" 
+[2026-05-19T11:32:21.640Z] [INFO] Scanning for projects...
+[2026-05-19T11:32:21.640Z] [INFO] 
+[2026-05-19T11:32:21.640Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T11:32:21.640Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T11:32:21.640Z] [INFO]   from pom.xml
+[2026-05-19T11:32:21.640Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T11:32:24.920Z] [INFO] 
+[2026-05-19T11:32:24.920Z] [INFO] --- enforcer:3.6.2:enforce (enforce-maven) @ parabank ---
+[2026-05-19T11:32:24.920Z] [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[2026-05-19T11:32:24.920Z] [INFO] 
+[2026-05-19T11:32:24.920Z] [INFO] --- resources:3.5.0:resources (default-resources) @ parabank ---
+[2026-05-19T11:32:24.920Z] [INFO] Copying 18 resources from src\main\resources to target\classes
+[2026-05-19T11:32:24.920Z] [INFO] 
+[2026-05-19T11:32:24.920Z] [INFO] --- compiler:3.15.0:compile (default-compile) @ parabank ---
+[2026-05-19T11:32:25.181Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T11:32:25.181Z] [INFO] 
+[2026-05-19T11:32:25.181Z] [INFO] --- resources:3.5.0:testResources (default-testResources) @ parabank ---
+[2026-05-19T11:32:25.181Z] [INFO] Copying 1 resource from src\main\webapp\WEB-INF to target\test-classes
+[2026-05-19T11:32:25.181Z] [INFO] Copying 20 resources from src\test\resources to target\test-classes
+[2026-05-19T11:32:25.181Z] [INFO] 
+[2026-05-19T11:32:25.181Z] [INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ parabank ---
+[2026-05-19T11:32:25.181Z] [INFO] Nothing to compile - all classes are up to date.
+[2026-05-19T11:32:25.181Z] [INFO] 
+[2026-05-19T11:32:25.181Z] [INFO] --- surefire:3.5.5:test (default-test) @ parabank ---
+[2026-05-19T11:32:25.441Z] [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[2026-05-19T11:32:25.441Z] [INFO] 
+[2026-05-19T11:32:25.441Z] [INFO] -------------------------------------------------------
+[2026-05-19T11:32:25.441Z] [INFO]  T E S T S
+[2026-05-19T11:32:25.441Z] [INFO] -------------------------------------------------------
+[2026-05-19T11:32:26.386Z] [INFO] Running com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+[2026-05-19T11:32:27.764Z] 14:32:27.541 [main] INFO   - 
+[2026-05-19T11:32:27.764Z] 
+[2026-05-19T11:32:27.764Z] -------------------------------------------------------------------------------------
+[2026-05-19T11:32:27.764Z]      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+[2026-05-19T11:32:27.764Z]     /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+[2026-05-19T11:32:27.764Z]    |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+[2026-05-19T11:32:27.764Z]     \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+[2026-05-19T11:32:27.764Z] .----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+[2026-05-19T11:32:27.764Z] |_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+[2026-05-19T11:32:27.764Z]                                                                                      
+[2026-05-19T11:32:27.764Z]  News and tutorials at http://www.serenity-bdd.info                                  
+[2026-05-19T11:32:27.764Z]  Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+[2026-05-19T11:32:27.764Z]  Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+[2026-05-19T11:32:27.764Z]  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+[2026-05-19T11:32:27.764Z] -------------------------------------------------------------------------------------
+[2026-05-19T11:32:27.764Z] 
+[2026-05-19T11:32:27.764Z] 14:32:27.562 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T11:32:27.764Z] 14:32:27.588 [main] INFO   - 
+[2026-05-19T11:32:27.764Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:27.764Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:27.764Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:27.764Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:27.764Z] 
+[2026-05-19T11:32:27.764Z] login_should_match_expected_result_from_csv[0]
+[2026-05-19T11:32:27.764Z] --------------------------------------------------------------------------------
+[2026-05-19T11:32:35.880Z] 14:32:35.441 [main] ERROR  - 
+[2026-05-19T11:32:35.880Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:32:35.880Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:32:35.880Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:32:35.880Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:32:35.880Z] 
+[2026-05-19T11:32:35.880Z] Login should match expected result from csv
+[2026-05-19T11:32:35.880Z] ---------------------------------------------------------------
+[2026-05-19T11:32:35.880Z] 14:32:35.446 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:32:35.880Z] 14:32:35.447 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:32:35.880Z] 14:32:35.457 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T11:32:35.880Z] 14:32:35.462 [main] INFO   - 
+[2026-05-19T11:32:35.880Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:35.880Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:35.880Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:35.880Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:35.880Z] 
+[2026-05-19T11:32:35.880Z] login_should_match_expected_result_from_csv[1]
+[2026-05-19T11:32:35.880Z] --------------------------------------------------------------------------------
+[2026-05-19T11:32:42.451Z] 14:32:41.210 [main] ERROR  - 
+[2026-05-19T11:32:42.451Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:32:42.451Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:32:42.451Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:32:42.451Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:32:42.451Z] 
+[2026-05-19T11:32:42.451Z] Login should match expected result from csv
+[2026-05-19T11:32:42.451Z] ---------------------------------------------------------------
+[2026-05-19T11:32:42.451Z] 14:32:41.211 [main] ERROR  -     Test failed at step: Login: invaliduser, demo
+[2026-05-19T11:32:42.451Z] 14:32:41.211 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:32:42.451Z] 14:32:41.214 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T11:32:42.451Z] 14:32:41.218 [main] INFO   - 
+[2026-05-19T11:32:42.451Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:42.451Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:42.451Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:42.451Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:42.451Z] 
+[2026-05-19T11:32:42.451Z] login_should_match_expected_result_from_csv[2]
+[2026-05-19T11:32:42.451Z] --------------------------------------------------------------------------------
+[2026-05-19T11:32:47.712Z] 14:32:46.982 [main] ERROR  - 
+[2026-05-19T11:32:47.712Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:32:47.712Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:32:47.712Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:32:47.712Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:32:47.712Z] 
+[2026-05-19T11:32:47.712Z] Login should match expected result from csv
+[2026-05-19T11:32:47.712Z] ---------------------------------------------------------------
+[2026-05-19T11:32:47.712Z] 14:32:46.983 [main] ERROR  -     Test failed at step: Login: john, wrongpassword
+[2026-05-19T11:32:47.712Z] 14:32:46.983 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:32:47.712Z] 14:32:46.986 [main] INFO   - Test Suite Started: Login black box test
+[2026-05-19T11:32:47.712Z] 14:32:46.989 [main] INFO   - 
+[2026-05-19T11:32:47.712Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:47.712Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:47.712Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:47.712Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:47.712Z] 
+[2026-05-19T11:32:47.712Z] login_should_match_expected_result_from_csv[3]
+[2026-05-19T11:32:47.712Z] --------------------------------------------------------------------------------
+[2026-05-19T11:32:52.994Z] 14:32:52.643 [main] ERROR  - 
+[2026-05-19T11:32:52.994Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:32:52.994Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:32:52.994Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:32:52.994Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] Login should match expected result from csv
+[2026-05-19T11:32:52.994Z] ---------------------------------------------------------------
+[2026-05-19T11:32:52.994Z] 14:32:52.643 [main] ERROR  -     Test failed at step: Login: invaliduser, wrongpassword
+[2026-05-19T11:32:52.994Z] 14:32:52.644 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] [ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 26.76 s <<< FAILURE! -- in com.parasoft.parabank.serenity.tests.LoginBlackBoxTest
+[2026-05-19T11:32:52.994Z] [ERROR] com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[0] -- Time elapsed: 7.829 s <<< ERROR!
+[2026-05-19T11:32:52.994Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:32:52.994Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] [ERROR] com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[1] -- Time elapsed: 5.750 s <<< ERROR!
+[2026-05-19T11:32:52.994Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:32:52.994Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] [ERROR] com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[2] -- Time elapsed: 5.765 s <<< ERROR!
+[2026-05-19T11:32:52.994Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:32:52.994Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] [ERROR] com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv[3] -- Time elapsed: 5.654 s <<< ERROR!
+[2026-05-19T11:32:52.994Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:32:52.994Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:32:52.994Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:32:52.994Z] Driver info: driver.version: unknown
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:32:52.994Z] 	at com.parasoft.parabank.serenity.tests.LoginBlackBoxTest.login_should_match_expected_result_from_csv(LoginBlackBoxTest.java:46)
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] [INFO] Running com.parasoft.parabank.serenity.tests.ScenarioBasedTest
+[2026-05-19T11:32:52.994Z] 14:32:52.793 [main] INFO   - Test Suite Started: Scenario based test
+[2026-05-19T11:32:52.994Z] 14:32:52.797 [main] INFO   - 
+[2026-05-19T11:32:52.994Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:52.994Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:52.994Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:52.994Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:52.994Z] 
+[2026-05-19T11:32:52.994Z] testScenario3_LoginAndTransfer
+[2026-05-19T11:32:52.994Z] --------------------------------------------------------------------------------
+[2026-05-19T11:32:59.542Z] 14:32:58.793 [main] ERROR  - 
+[2026-05-19T11:32:59.542Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:32:59.542Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:32:59.542Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:32:59.542Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:32:59.542Z] 
+[2026-05-19T11:32:59.542Z] Test scenario3 login and transfer
+[2026-05-19T11:32:59.542Z] ---------------------------------------------------------------
+[2026-05-19T11:32:59.542Z] 14:32:58.793 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:32:59.542Z] 14:32:58.793 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:32:59.542Z] 14:32:58.797 [main] INFO   - 
+[2026-05-19T11:32:59.542Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:32:59.542Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:32:59.542Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:32:59.542Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:32:59.542Z] 
+[2026-05-19T11:32:59.542Z] testScenario1_LoginValid
+[2026-05-19T11:32:59.542Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:04.800Z] 14:33:04.492 [main] ERROR  - 
+[2026-05-19T11:33:04.800Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:04.800Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:04.800Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:04.800Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:04.800Z] 
+[2026-05-19T11:33:04.800Z] Test scenario1 login valid
+[2026-05-19T11:33:04.800Z] ---------------------------------------------------------------
+[2026-05-19T11:33:04.800Z] 14:33:04.493 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:04.800Z] 14:33:04.493 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:04.800Z] 14:33:04.495 [main] INFO   - 
+[2026-05-19T11:33:04.800Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:33:04.800Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:33:04.800Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:33:04.800Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:33:04.800Z] 
+[2026-05-19T11:33:04.800Z] testScenario5_LoginAddMultipleAccountsLogout
+[2026-05-19T11:33:04.800Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:11.361Z] 14:33:10.268 [main] ERROR  - 
+[2026-05-19T11:33:11.361Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:11.361Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:11.361Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:11.361Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:11.361Z] 
+[2026-05-19T11:33:11.361Z] Test scenario5 login add multiple accounts logout
+[2026-05-19T11:33:11.361Z] ---------------------------------------------------------------
+[2026-05-19T11:33:11.361Z] 14:33:10.268 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:11.361Z] 14:33:10.269 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:11.361Z] 14:33:10.270 [main] INFO   - 
+[2026-05-19T11:33:11.361Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:33:11.361Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:33:11.361Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:33:11.361Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:33:11.361Z] 
+[2026-05-19T11:33:11.361Z] testScenario6_LoginMultipleTransfersLogout
+[2026-05-19T11:33:11.361Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:16.625Z] 14:33:16.032 [main] ERROR  - 
+[2026-05-19T11:33:16.625Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:16.625Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:16.625Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:16.625Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:16.625Z] 
+[2026-05-19T11:33:16.625Z] Test scenario6 login multiple transfers logout
+[2026-05-19T11:33:16.625Z] ---------------------------------------------------------------
+[2026-05-19T11:33:16.625Z] 14:33:16.032 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:16.625Z] 14:33:16.032 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:16.625Z] 14:33:16.034 [main] INFO   - 
+[2026-05-19T11:33:16.625Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:33:16.625Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:33:16.625Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:33:16.625Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:33:16.625Z] 
+[2026-05-19T11:33:16.625Z] testScenario4_CompleteWorkflow
+[2026-05-19T11:33:16.625Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:21.905Z] 14:33:21.710 [main] ERROR  - 
+[2026-05-19T11:33:21.905Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:21.905Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:21.905Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:21.905Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:21.905Z] 
+[2026-05-19T11:33:21.905Z] Test scenario4 complete workflow
+[2026-05-19T11:33:21.905Z] ---------------------------------------------------------------
+[2026-05-19T11:33:21.905Z] 14:33:21.710 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:21.905Z] 14:33:21.710 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:21.905Z] 14:33:21.713 [main] INFO   - 
+[2026-05-19T11:33:21.905Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:33:21.905Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:33:21.905Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:33:21.905Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:33:21.905Z] 
+[2026-05-19T11:33:21.905Z] testScenario2_LoginAndAddAccount
+[2026-05-19T11:33:21.905Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:28.484Z] 14:33:27.375 [main] ERROR  - 
+[2026-05-19T11:33:28.484Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:28.484Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:28.484Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:28.484Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:28.484Z] 
+[2026-05-19T11:33:28.484Z] Test scenario2 login and add account
+[2026-05-19T11:33:28.484Z] ---------------------------------------------------------------
+[2026-05-19T11:33:28.484Z] 14:33:27.376 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:28.484Z] 14:33:27.376 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:28.484Z] 14:33:27.377 [main] INFO   - 
+[2026-05-19T11:33:28.484Z]   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+[2026-05-19T11:33:28.484Z]  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+[2026-05-19T11:33:28.484Z]    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+[2026-05-19T11:33:28.484Z]    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+[2026-05-19T11:33:28.484Z] 
+[2026-05-19T11:33:28.484Z] testScenario7_ComplexWorkflow
+[2026-05-19T11:33:28.484Z] --------------------------------------------------------------------------------
+[2026-05-19T11:33:33.764Z] 14:33:33.124 [main] ERROR  - 
+[2026-05-19T11:33:33.764Z]   _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+[2026-05-19T11:33:33.764Z]  |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+[2026-05-19T11:33:33.764Z]    | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+[2026-05-19T11:33:33.764Z]    |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] Test scenario7 complex workflow
+[2026-05-19T11:33:33.764Z] ---------------------------------------------------------------
+[2026-05-19T11:33:33.764Z] 14:33:33.125 [main] ERROR  -     Test failed at step: Login: john, demo
+[2026-05-19T11:33:33.764Z] 14:33:33.125 [main] ERROR  -     Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.10.0', revision: 'c14d967899'System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR] Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 40.29 s <<< FAILURE! -- in com.parasoft.parabank.serenity.tests.ScenarioBasedTest
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario3_LoginAndTransfer -- Time elapsed: 5.930 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario3_LoginAndTransfer(ScenarioBasedTest.java:75)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario1_LoginValid -- Time elapsed: 5.693 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario1_LoginValid(ScenarioBasedTest.java:48)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario5_LoginAddMultipleAccountsLogout -- Time elapsed: 5.771 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario5_LoginAddMultipleAccountsLogout(ScenarioBasedTest.java:114)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario6_LoginMultipleTransfersLogout -- Time elapsed: 5.760 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario6_LoginMultipleTransfersLogout(ScenarioBasedTest.java:137)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario4_CompleteWorkflow -- Time elapsed: 5.674 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario4_CompleteWorkflow(ScenarioBasedTest.java:92)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario2_LoginAndAddAccount -- Time elapsed: 5.660 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario2_LoginAndAddAccount(ScenarioBasedTest.java:60)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [ERROR] com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario7_ComplexWorkflow -- Time elapsed: 5.746 s <<< ERROR!
+[2026-05-19T11:33:33.764Z] org.openqa.selenium.TimeoutException: 
+[2026-05-19T11:33:33.764Z] Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.enterUsername(LoginPage.java:28)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.pages.LoginPage.login(LoginPage.java:40)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.steps.LoginSteps.login(LoginSteps.java:29)
+[2026-05-19T11:33:33.764Z] 	at com.parasoft.parabank.serenity.tests.ScenarioBasedTest.testScenario7_ComplexWorkflow(ScenarioBasedTest.java:162)
+[2026-05-19T11:33:33.764Z] 
+[2026-05-19T11:33:33.764Z] [INFO] 
+[2026-05-19T11:33:33.764Z] [INFO] Results:
+[2026-05-19T11:33:33.764Z] [INFO] 
+[2026-05-19T11:33:33.764Z] [ERROR] Errors: 
+[2026-05-19T11:33:33.764Z] [ERROR]   LoginBlackBoxTest.login_should_match_expected_result_from_csv:46 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   LoginBlackBoxTest.login_should_match_expected_result_from_csv:46 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   LoginBlackBoxTest.login_should_match_expected_result_from_csv:46 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   LoginBlackBoxTest.login_should_match_expected_result_from_csv:46 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario1_LoginValid:48 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario2_LoginAndAddAccount:60 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario3_LoginAndTransfer:75 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario4_CompleteWorkflow:92 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario5_LoginAddMultipleAccountsLogout:114 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario6_LoginMultipleTransfersLogout:137 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [ERROR]   ScenarioBasedTest.testScenario7_ComplexWorkflow:162 » Timeout Expected condition failed: waiting for LoginPage.usernameField to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] Build info: version: '4.10.0', revision: 'c14d967899'
+[2026-05-19T11:33:33.764Z] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+[2026-05-19T11:33:33.764Z] Driver info: driver.version: unknown
+[2026-05-19T11:33:33.764Z] [INFO] 
+[2026-05-19T11:33:33.764Z] [ERROR] Tests run: 11, Failures: 0, Errors: 11, Skipped: 0
+[2026-05-19T11:33:33.764Z] [INFO] 
+[2026-05-19T11:33:33.764Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:33:33.764Z] [INFO] BUILD FAILURE
+[2026-05-19T11:33:33.764Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:33:33.764Z] [INFO] Total time:  01:12 min
+[2026-05-19T11:33:33.764Z] [INFO] Finished at: 2026-05-19T14:33:33+03:00
+[2026-05-19T11:33:33.764Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:33:33.764Z] [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.5:test (default-test) on project parabank: 
+[2026-05-19T11:33:33.764Z] [ERROR] 
+[2026-05-19T11:33:33.764Z] [ERROR] See D:\VVSS lab 5\parabank\target\surefire-reports for the individual test results.
+[2026-05-19T11:33:33.764Z] [ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[2026-05-19T11:33:33.764Z] [ERROR] -> [Help 1]
+[2026-05-19T11:33:33.764Z] [ERROR] 
+[2026-05-19T11:33:33.764Z] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[2026-05-19T11:33:33.764Z] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[2026-05-19T11:33:33.764Z] [ERROR] 
+[2026-05-19T11:33:33.764Z] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[2026-05-19T11:33:33.764Z] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[8mha:////4CwgI4ZMsnSNAqjlKeG3fBb8r/fHtgkKhhd9ufuu6dQNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4H2eR3f0rCyPF8IVJj4xI4oQwYxE2JMRzSLH+WTSOWICAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // dir
+[8mha:////4C2wP0nAUB1u48U5KA8pAl4ui7aFi9nTm6F2Sz9wgiQmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFTNx6xvgAAAA==[0m[Pipeline] }
+[8mha:////4Ll3IsoAXaZ+4ihsZXYTEmw0rRuHJL+T7pf9lAm9h7E0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN0y1S+O+AAAA[0m[Pipeline] // stage
+[8mha:////4I/kp+KaKQHfe2IL5YCVfHq8M5HeuM2XtDTMWhEYIVvKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoi0SGyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5S7Jtu++TyrNwNd1EXCAAAA[0m[Pipeline] stage
+[8mha:////4KGIfleQZJZ+fiBv6cQws7Wh2Z3eN38qqgVw3291TUSZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4BVVeJLwuk1/qlw3jCbn02EZMI0hlZuahobYhmI6vE8TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] dir
+[2026-05-19T11:33:33.932Z] Running in D:\VVSS lab 5\parabank
+[8mha:////4EZfJJ9gsOdNiKOW3Yrap0hgmglBBQDAZZvac4kzfItWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4HFa6QgjdCTHQdjrrk6IreFGieFdO+LV1yS0YJ7nK/XrAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] bat
+[2026-05-19T11:33:34.246Z] 
+[2026-05-19T11:33:34.246Z] D:\VVSS lab 5\parabank>mvn "org.codehaus.cargo:cargo-maven3-plugin:1.10.27:stop" 
+[2026-05-19T11:33:36.142Z] [INFO] Scanning for projects...
+[2026-05-19T11:33:36.142Z] [INFO] 
+[2026-05-19T11:33:36.142Z] [INFO] -----------------------< com.parasoft:parabank >------------------------
+[2026-05-19T11:33:36.142Z] [INFO] Building ParaBank Sample Project 5.0.0-SNAPSHOT
+[2026-05-19T11:33:36.142Z] [INFO]   from pom.xml
+[2026-05-19T11:33:36.142Z] [INFO] --------------------------------[ war ]---------------------------------
+[2026-05-19T11:33:39.427Z] [INFO] 
+[2026-05-19T11:33:39.427Z] [INFO] --- cargo:1.10.27:stop (default-cli) @ parabank ---
+[2026-05-19T11:33:39.427Z] [INFO] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.10.27 for container tomcat10x
+[2026-05-19T11:33:40.375Z] [INFO] Tomcat 10.1.54 is stopping...
+[2026-05-19T11:33:40.637Z] [INFO] May 19, 2026 2:33:40 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T11:33:40.638Z] [INFO] SEVERE: Could not contact [localhost:8205] (base port [8205] and offset [0]). Tomcat may not be running.
+[2026-05-19T11:33:40.638Z] [INFO] May 19, 2026 2:33:40 PM org.apache.catalina.startup.Catalina stopServer
+[2026-05-19T11:33:40.638Z] [INFO] SEVERE: Error stopping Catalina
+[2026-05-19T11:33:40.638Z] [INFO] java.net.ConnectException: Connection refused: connect
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:751)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.net.Socket.connect(Socket.java:686)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:555)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.net.Socket.<init>(Socket.java:324)
+[2026-05-19T11:33:40.638Z] [INFO] 	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:654)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[2026-05-19T11:33:40.638Z] [INFO] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[2026-05-19T11:33:40.638Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:390)
+[2026-05-19T11:33:40.638Z] [INFO] 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:479)
+[2026-05-19T11:33:40.638Z] [INFO] 
+[2026-05-19T11:33:45.925Z] [INFO] Tomcat 10.1.54 is stopped
+[2026-05-19T11:33:46.499Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:33:46.499Z] [INFO] BUILD SUCCESS
+[2026-05-19T11:33:46.499Z] [INFO] ------------------------------------------------------------------------
+[2026-05-19T11:33:46.499Z] [INFO] Total time:  10.590 s
+[2026-05-19T11:33:46.499Z] [INFO] Finished at: 2026-05-19T14:33:46+03:00
+[2026-05-19T11:33:46.499Z] [INFO] ------------------------------------------------------------------------
+[8mha:////4Ok2BqRTisUBEaxkp/J3vRMIaDhhs/D3S+io0qNHx2OgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4BXcsMwt7qJaQv9qYoxK/xy1fOBFib7y6lfmopq38dIOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // dir
+[8mha:////4PpB8WOmZ1yKMsXbegGsVgB/8ixa5qrqPnuW80ETv2aRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpS77af24Q1vOjcGvgAAAA==[0m[Pipeline] junit
+[2026-05-19T11:33:46.567Z] Recording test results
+[2026-05-19T11:33:46.567Z] No test report files were found. Configuration error?
+[2026-05-19T11:33:46.574Z] [Checks API] No suitable checks publisher found.
+[8mha:////4BcxnvvhrhVuyJK20L8E4pti2h1hszKLchKbnmzA2HywAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpS77af24Q2gJq+BvgAAAA==[0m[Pipeline] archiveArtifacts
+[2026-05-19T11:33:46.600Z] Archiving artifacts
+[8mha:////4Ni95oui47Rl6GIjNapNawUmABJD3z7BCbOdvUOTRuFPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEFHa1pvgAAAA==[0m[Pipeline] }
+[8mha:////4KlM60YZSb9SbpdJZsy2U7TzgGeQp8N6GXoKkKdv+CaXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSAipEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP+930p++AAAA[0m[Pipeline] // stage
+[8mha:////4DwHbK00X2w1VHWXB93p01hHQsxSy9g82gxju8TL4VnrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhBRWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvPw9Q+Sm+AAAA[0m[Pipeline] }
+[8mha:////4EAY370ehcI2bM1d6lLYJjhnDpmNjiYBAHaCFrdXQbdAAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A05GpU29AAAA[0m[Pipeline] // timeout
+[8mha:////4JMWlJ+YBVE9O3U+dbyqMq3/Y5uawuxOjF0BQAZWLOZNAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9tBdn+A2hfwge9AAAA[0m[Pipeline] }
+[8mha:////4JCzo/4DBFVYHUw7Hwkzb3k2hyuomgr+xn5wPE+q67vdAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsP6Z5dJb0AAAA=[0m[Pipeline] // timestamps
+[8mha:////4IDQc/xnkXm2m8NGnWd1jezUfqneUVHTv4B2LcCJsNlyAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU2DhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w/PhzpvvQAAAA==[0m[Pipeline] }
+[8mha:////4P/NPAOlWE0KAxEXlRMuGPn+mGyRcLxwcSj4xvgp+sLvAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU2DhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg+lrJOxvQAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HHmnHmAqq4gzARiGtGBos2ndmuLBecSq4fuetXe87YfAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPg7X0+70AAAA=[0m[Pipeline] }
+[8mha:////4CwfDM2NyBpyYG1LGWli/YMqe0cl/2kRyIxImSwmH+tiAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A/G3wOe9AAAA[0m[Pipeline] // node
+[8mha:////4NGxxzXSX7ta4o+ID6Il5JauGWbdDDF1VMusdiUBfT0XAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A9eup629AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
